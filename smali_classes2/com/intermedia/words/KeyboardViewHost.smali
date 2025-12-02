@@ -80,7 +80,7 @@
         "webSocketMessageSender",
         "<init>",
         "(Lcom/intermedia/analytics/AnalyticEventConsumers;Lcom/intermedia/observability/DatadogReporter;Lio/reactivex/Flowable;Lio/reactivex/Flowable;Lio/reactivex/Flowable;Landroid/view/View;Lcom/intermedia/media/SoundEffectsPlayer;Lio/reactivex/Flowable;Lcom/intermedia/websocket/WebSocketMessageSender;)V",
-        "2ec916ecd-241021-hq-1.53.3-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
     }
     k = 0x1
     mv = {

@@ -51,7 +51,7 @@
 
     const v0, 0x7f120261
 
-    const-string v1, "https://hqtrivia.com/legal/v2/tou"
+    const-string v1, "https://question.house/legal/tou"
 
     const/4 v2, 0x0
 

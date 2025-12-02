@@ -10,7 +10,7 @@ packageInfo:
   forcedPackageId: 127
 versionInfo:
   versionCode: 227
-  versionName: 1.53.3
+  versionName: 2.0.0
 doNotCompress:
 - arsc
 - mp3

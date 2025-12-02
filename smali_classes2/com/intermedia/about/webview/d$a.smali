@@ -51,7 +51,7 @@
 
     const v0, 0x7f1201d3
 
-    const-string v1, "https://hqtrivia.com/legal/v2/privacy"
+    const-string v1, "https://question.house/legal/privacy"
 
     const/4 v2, 0x0
 

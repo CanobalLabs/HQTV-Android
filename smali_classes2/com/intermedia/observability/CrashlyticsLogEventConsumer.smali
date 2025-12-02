@@ -26,7 +26,7 @@
         "(Lcom/intermedia/observability/ILogEvent;)V",
         "<init>",
         "()V",
-        "2ec916ecd-241021-hq-1.53.3-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
     }
     k = 0x1
     mv = {

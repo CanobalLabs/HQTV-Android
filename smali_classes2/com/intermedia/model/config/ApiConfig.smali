@@ -163,7 +163,7 @@
         "getWebStoreUrl",
         "<init>",
         "(Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Lcom/intermedia/model/config/ApiEasterEggs;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/Boolean;Lcom/intermedia/model/config/ApiFriends;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Lcom/intermedia/model/config/MinVersion;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Lcom/intermedia/model/config/ApiPayouts;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Lcom/intermedia/model/config/ApiStreamConfigurationEnvelope;Ljava/lang/Boolean;Lcom/intermedia/model/config/Telemetry;Ljava/lang/String;Lcom/intermedia/model/config/ApiWave;Ljava/lang/String;)V",
-        "2ec916ecd-241021-hq-1.53.3-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
     }
     k = 0x1
     mv = {

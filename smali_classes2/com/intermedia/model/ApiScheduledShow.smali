@@ -99,7 +99,7 @@
         "getVertical",
         "<init>",
         "(Ljava/lang/String;Lcom/intermedia/model/ApiDisplay;Ljava/lang/String;Lcom/intermedia/model/ApiLiveBroadcast;Ljava/util/List;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;)V",
-        "2ec916ecd-241021-hq-1.53.3-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
     }
     k = 0x1
     mv = {

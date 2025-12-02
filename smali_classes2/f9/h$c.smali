@@ -139,7 +139,7 @@
 
     const-string v1, "x-hq-client"
 
-    const-string v2, "Android/1.53.3"
+    const-string v2, "Android/2.0.0"
 
     invoke-virtual {v0, v1, v2}, Lcom/neovisionaries/ws/client/j0;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/neovisionaries/ws/client/j0;
 

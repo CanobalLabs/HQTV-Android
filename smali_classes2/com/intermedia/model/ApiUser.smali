@@ -160,7 +160,7 @@
         "<init>",
         "(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;Lcom/intermedia/model/ApiConnectedAccounts;Ljava/util/List;Ljava/lang/Integer;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Lcom/intermedia/model/ApiItems;Lcom/intermedia/model/ApiLeaderboard;Ljava/lang/Long;Ljava/util/Map;Lcom/intermedia/model/ApiPreferences;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/util/List;Ljava/lang/String;Lcom/intermedia/model/ApiStreakInfo;Ljava/util/List;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Integer;)V",
         "Companion",
-        "2ec916ecd-241021-hq-1.53.3-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
     }
     k = 0x1
     mv = {

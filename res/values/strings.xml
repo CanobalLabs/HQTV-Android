@@ -9,14 +9,14 @@
     <string name="Accept_friend">Accept friend</string>
     <string name="Account">Account</string>
     <string name="Add">Add</string>
-    <string name="Add_Friends_on_HQ">Add Friends on HQ</string>
+    <string name="Add_Friends_on_HQ">Add Friends on HQTV</string>
     <string name="Add_friend">Add friend</string>
     <string name="Add_people_you_know">Add people you know</string>
     <string name="Agree_and_Continue">Agree and Continue</string>
     <string name="Airing_Soon">Airing Soon</string>
     <string name="All_shows_have_been_reviewed_You_re_all_set_for_cashing_out_Learn_more">All shows have been reviewed! You’re all set for cashing out. Learn more</string>
     <string name="All_time">All time</string>
-    <string name="Allow_HQ_access_to_your_camera_so_you_can_take_photos_during_the_game">Allow HQ access to your camera so you can take photos during the game.</string>
+    <string name="Allow_HQ_access_to_your_camera_so_you_can_take_photos_during_the_game">Allow HQTV access to your camera so you can take photos during the game.</string>
     <string name="Already_submitted">Already submitted</string>
     <string name="An_error_occurred_while_accepting_request">An error occurred while accepting request.</string>
     <string name="An_error_occurred_while_blocking_user">An error occurred while blocking user.</string>
@@ -92,7 +92,7 @@
     <string name="Choose_the_show_you_heard_about_and_enter_your_friend_s_referral_code_to_earn_a_reward">Choose the show you heard about and enter your friend’s referral code to earn a reward</string>
     <string name="Chosen_username_already_exists">Chosen username already exists</string>
     <string name="Close">Close</string>
-    <string name="Code">Code</string>
+    <string name="Code">PIN (or 1234)</string>
     <string name="Code_sent_Retry_in_seconds">Code sent. Retry in %{seconds}</string>
     <string name="Coins">Coins</string>
     <string name="Coins_few">Coins</string>
@@ -116,9 +116,9 @@ Tell your friends!"</string>
     <string name="Connect_Address_Book">Connect Address Book</string>
     <string name="Connect_Contacts">Connect Contacts</string>
     <string name="Connect_Instagram">Connect Instagram</string>
-    <string name="Connect_with_your_friends_on_HQ_See_their_status_during_games_and_more_secret_friend_features_coming">Connect with your friends on HQ. See their status during games and more secret friend features coming soon!</string>
-    <string name="Connect_your_account_to_discover_new_Instagram_users_and_get_new_followers_from_HQX">Connect your account to discover new Instagram users and get new followers from HQX</string>
-    <string name="Connect_your_contacts_to_find_your_friends_on_HQ">Connect your contacts to find your friends on HQ</string>
+    <string name="Connect_with_your_friends_on_HQ_See_their_status_during_games_and_more_secret_friend_features_coming">Connect with your friends on HQTV. See their status during games and more secret friend features coming soon!</string>
+    <string name="Connect_your_account_to_discover_new_Instagram_users_and_get_new_followers_from_HQX">Connect your account to discover new Instagram users and get new followers from HQTVX</string>
+    <string name="Connect_your_contacts_to_find_your_friends_on_HQ">Connect your contacts to find your friends on HQTV</string>
     <string name="Continue">Continue</string>
     <string name="Continue_playing_with_an_extra_life_Earn_extra_lives_by_inviting_your_friends">Continue playing with an extra life! Earn extra lives by inviting your friends.</string>
     <string name="Continue_watching">Continue watching</string>
@@ -144,8 +144,8 @@ Challenge"</string>
     <string name="Dislike">Dislike</string>
     <string name="Do_you_want_to_unlink_your_account_account">Do you want to unlink your %{account} account?</string>
     <string name="Don_t_miss_a_game">"Don't miss a game!"</string>
-    <string name="Don_t_miss_the_next_HQ_Trivia_game_We_send_push_notifications_to_alert_you_when_the_game_is_live">"Don't miss the next HQ Trivia game. We send push notifications to alert you when the game is live."</string>
-    <string name="Don_t_miss_the_next_HQ_show_We_send_push_notifications_to_alert_you_when_our_shows_are_live">"Don't miss the next HQ show. We send push notifications to alert you when our shows are live."</string>
+    <string name="Don_t_miss_the_next_HQ_Trivia_game_We_send_push_notifications_to_alert_you_when_the_game_is_live">"Don't miss the next HQTV Trivia game. We send push notifications to alert you when the game is live."</string>
+    <string name="Don_t_miss_the_next_HQ_show_We_send_push_notifications_to_alert_you_when_our_shows_are_live">"Don't miss the next HQTV show. We send push notifications to alert you when our shows are live."</string>
     <string name="Donate">Donate</string>
     <string name="Donate_Winnings">Donate Winnings</string>
     <string name="Donate_amount">Donate %{amount}</string>
@@ -168,15 +168,15 @@ Challenge"</string>
     <string name="Employees_are_not_allowed_to_cashout">Employees are not allowed to cashout</string>
     <string name="Enable">Enable</string>
     <string name="Enable_Notifications">Enable Notifications</string>
-    <string name="Enable_this_setting_to_be_discoverable_to_people_playing_HQ_near_you_It_s_fun">"Enable this setting to be discoverable to people playing HQ near you. It's fun!"</string>
-    <string name="Enable_this_setting_to_earn_power_ups_by_finding_nearby_people_playing_HQ">Enable this setting to earn power ups by finding nearby people playing HQ!</string>
-    <string name="Enable_this_to_automatically_keep_your_contacts_on_HQ_up_to_date">Enable this to automatically keep your contacts on HQ up to date.</string>
+    <string name="Enable_this_setting_to_be_discoverable_to_people_playing_HQ_near_you_It_s_fun">"Enable this setting to be discoverable to people playing HQTV near you. It's fun!"</string>
+    <string name="Enable_this_setting_to_earn_power_ups_by_finding_nearby_people_playing_HQ">Enable this setting to earn power ups by finding nearby people playing HQTV!</string>
+    <string name="Enable_this_to_automatically_keep_your_contacts_on_HQ_up_to_date">Enable this to automatically keep your contacts on HQTV up to date.</string>
     <string name="Enter_Referral_Code">Enter Referral Code</string>
     <string name="Enter_Referral_Codes">Enter Referral Codes</string>
     <string name="Enter_VIP_Game">Enter VIP Game</string>
     <string name="Enter_Verification_Code">Enter Verification Code</string>
     <string name="Enter_a_Referral_Code">Enter a Referral Code</string>
-    <string name="Enter_a_friend_s_HQ_username_as_your_referral_code">"Enter a friend's HQ username as your referral code."</string>
+    <string name="Enter_a_friend_s_HQ_username_as_your_referral_code">"Enter a friend's HQTV username as your referral code."</string>
     <string name="Enter_for_prize">Enter for %{prize}</string>
     <string name="Enter_the_verification_code_sent_to_phoneNumber">Enter the verification code sent to %{phoneNumber}</string>
     <string name="Enter_your_phone_number">Enter your phone number</string>
@@ -222,7 +222,7 @@ Challenge"</string>
     <string name="Forfeited">Forfeited</string>
     <string name="Forfeited_Balance">Forfeited Balance</string>
     <string name="Found_a_player_nearby">Found a player nearby!</string>
-    <string name="Found_an_HQ_Words_player_nearby_You_ve_unlocked_the_game">"Found an HQ Words player nearby! You've unlocked the game."</string>
+    <string name="Found_an_HQ_Words_player_nearby_You_ve_unlocked_the_game">"Found an HQTV Words player nearby! You've unlocked the game."</string>
     <string name="Found_name1_and_name2" formatted="false">Found *%{name1}* and *%{name2}*</string>
     <string name="Found_name1_and_name2_nearby" formatted="false">Found *%{name1}* and *%{name2}* nearby</string>
     <string name="Found_name_nearby">Found *%{name}* nearby</string>
@@ -252,7 +252,7 @@ Challenge"</string>
     <string name="Get_help">Get help</string>
     <string name="Get_more_coins_to_buy_Power_Ups">Get more coins to buy Power Ups!</string>
     <string name="Get_notified_when_nHQ_is_live">"Get notified when
-HQ is live?"</string>
+HQTV is live?"</string>
     <string name="Get_notified_when_n_shows_are_live">"Get notified when
  shows are live"</string>
     <string name="Get_notified_when_the_shows_are_live">Get notified when the shows are live:</string>
@@ -267,38 +267,38 @@ HQ is live?"</string>
     <string name="Google">Google</string>
     <string name="Grant_Extra_Life">Grant Extra Life</string>
     <string name="Guest">Guest</string>
-    <string name="HQ_Shop">HQ Shop</string>
-    <string name="HQ_Sports">HQ Sports</string>
-    <string name="HQ_Trivia">HQ Trivia</string>
-    <string name="HQ_Words">HQ Words</string>
-    <string name="HQ_is_at_capacity">HQ is at capacity</string>
+    <string name="HQ_Shop">HQTV Shop</string>
+    <string name="HQ_Sports">HQTV Sports</string>
+    <string name="HQ_Trivia">HQTV Trivia</string>
+    <string name="HQ_Words">HQTV Words</string>
+    <string name="HQ_is_at_capacity">HQTV is at capacity</string>
     <string name="Have_your_photo_seen_by_more_people_with_a_Boost">Have your photo seen by more people with a Boost</string>
     <string name="Help_us_spread_the_word">Help us spread the word</string>
     <string name="Here_s_an_Extra_Life_for_your_next_game">"Here's an Extra Life for your next game!"</string>
     <string name="Hey">Hey</string>
-    <string name="Hey_I_m_playing_a_game_called_HQ_Trivia_You_should_play_too_Use_my_code_username_to_sign_up_https_ge">"Hey, I’m playing a game called HQ Trivia. You should play too. Use my code '%{username}' to sign up https://get.hqtrivia.com"</string>
+    <string name="Hey_I_m_playing_a_game_called_HQ_Trivia_You_should_play_too_Use_my_code_username_to_sign_up_https_ge">"Hey, I’m playing a game called HQTV Trivia. You should play too. Use my code '%{username}' to sign up https://hqtv.studio"</string>
     <string name="Hide_details">Hide details</string>
     <string name="High_Score">High Score</string>
     <string name="History">History</string>
-    <string name="Hit_us_up_on_Twitter_hqtrivia">Hit us up on Twitter @hqtrivia</string>
+    <string name="Hit_us_up_on_Twitter_hqtrivia">Hit us up on Twitter @playhqtv</string>
     <string name="Hot">Hot</string>
     <string name="How_it_works">How it works</string>
     <string name="How_to_Play">How to Play</string>
     <string name="How_to_play">How to play</string>
-    <string name="I_can_t_believe_I_got_this_question_wrong_on_HQ_Trivia">I can’t believe I got this question wrong on HQ Trivia!</string>
-    <string name="I_can_t_believe_I_got_this_question_wrong_on_hqtrivia">I can’t believe I got this question wrong on @hqtrivia!</string>
-    <string name="I_just_got_round_questions_correct_on_HQ_Trivia_That_s_a_new_record_for_me_You_should_play_too_Use_m" formatted="false">I just got %{round} questions correct on HQ Trivia! That’s a new record for me. You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com</string>
-    <string name="I_just_got_round_questions_correct_on_hqtrivia_That_s_a_new_record_for_me_You_should_play_too_Use_my" formatted="false">I just got %{round} questions correct on @hqtrivia! That’s a new record for me. You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com</string>
-    <string name="I_just_unlocked_the_badge_Badge_on_HQ_Trivia_Use_code_code_to_sign_up_https_get_hqtrivia_com" formatted="false">I just unlocked the %{badge} Badge on HQ Trivia! Use code \"%{code}\" to sign up https://get.hqtrivia.com</string>
-    <string name="I_just_unlocked_the_badge_Badge_on_hqtrivia_Use_code_code_to_sign_up_https_get_hqtrivia_com" formatted="false">I just unlocked the %{badge} Badge on @hqtrivia! Use code \"%{code}\" to sign up https://get.hqtrivia.com</string>
-    <string name="I_just_won_prize_on_HQ_Trivia_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia" formatted="false">I just won %{prize} on HQ Trivia! You should play too. Use my code \"%{username}\" when you sign up www.hqtrivia.com</string>
-    <string name="I_just_won_prize_on_HQ_Trivia_You_should_play_too_www_hqtrivia_com">I just won %{prize} on HQ Trivia! You should play too. www.hqtrivia.com</string>
-    <string name="I_just_won_prize_on_gameName_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia_" formatted="false">I just won %{prize} on %{gameName}! You should play too. Use my code \"%{username}\" when you sign up www.hqtrivia.com</string>
-    <string name="I_just_won_prize_on_hqtrivia_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia_" formatted="false">I just won %{prize} on @hqtrivia! You should play too. Use my code \"%{username}\" when you sign up www.hqtrivia.com</string>
+    <string name="I_can_t_believe_I_got_this_question_wrong_on_HQ_Trivia">I can’t believe I got this question wrong on HQTV Trivia!</string>
+    <string name="I_can_t_believe_I_got_this_question_wrong_on_hqtrivia">I can’t believe I got this question wrong on @playhqtv!</string>
+    <string name="I_just_got_round_questions_correct_on_HQ_Trivia_That_s_a_new_record_for_me_You_should_play_too_Use_m" formatted="false">I just got %{round} questions correct on HQTV Trivia! That’s a new record for me. You should play too. Use my code \"%{username}\" to sign up hqtv.studio</string>
+    <string name="I_just_got_round_questions_correct_on_hqtrivia_That_s_a_new_record_for_me_You_should_play_too_Use_my" formatted="false">I just got %{round} questions correct on @playhqtv! That’s a new record for me. You should play too. Use my code \"%{username}\" to sign up hqtv.studio</string>
+    <string name="I_just_unlocked_the_badge_Badge_on_HQ_Trivia_Use_code_code_to_sign_up_https_hqtv.studio" formatted="false">I just unlocked the %{badge} Badge on HQTV Trivia! Use code \"%{code}\" to sign up https://hqtv.studio</string>
+    <string name="I_just_unlocked_the_badge_Badge_on_hqtrivia_Use_code_code_to_sign_up_https_hqtv.studio" formatted="false">I just unlocked the %{badge} Badge on @playhqtv! Use code \"%{code}\" to sign up https://hqtv.studio</string>
+    <string name="I_just_won_prize_on_HQ_Trivia_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia" formatted="false">I just won %{prize} on HQTV Trivia! You should play too. Use my code \"%{username}\" when you sign up hqtv.studio</string>
+    <string name="I_just_won_prize_on_HQ_Trivia_You_should_play_too_hqtv.studio">I just won %{prize} on HQTV Trivia! You should play too. hqtv.studio</string>
+    <string name="I_just_won_prize_on_gameName_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia_" formatted="false">I just won %{prize} on %{gameName}! You should play too. Use my code \"%{username}\" when you sign up hqtv.studio</string>
+    <string name="I_just_won_prize_on_hqtrivia_You_should_play_too_Use_my_code_username_when_you_sign_up_www_hqtrivia_" formatted="false">I just won %{prize} on @playhqtv! You should play too. Use my code \"%{username}\" when you sign up hqtv.studio</string>
     <string name="I_just_won_prize_on_twitterHandle_You_should_play_too_Use_my_code_username" formatted="false">I just won %{prize} on %{twitterHandle}! You should play too. Use my code \"%{username}\"</string>
     <string name="I_m_playing_a_game_called_appName_You_should_play_too">"I'm playing a game called %{appName}! You should play too."</string>
-    <string name="I_m_playing_a_game_called_gameName_You_should_play_too_Use_my_code_username_to_sign_up_www_hqtrivia_" formatted="false">"I'm playing a game called %{gameName}! You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com"</string>
-    <string name="I_m_playing_live_game_shows_on_HQ_You_should_play_too_Use_my_code_username_to_sign_up_www_hqtrivia_c">"I'm playing live game shows on HQ! You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com"</string>
+    <string name="I_m_playing_a_game_called_gameName_You_should_play_too_Use_my_code_username_to_sign_up_www_hqtrivia_" formatted="false">"I'm playing a game called %{gameName}! You should play too. Use my code \"%{username}\" to sign up hqtv.studio"</string>
+    <string name="I_m_playing_live_game_shows_on_HQ_You_should_play_too_Use_my_code_username_to_sign_up_www_hqtrivia_c">"I'm playing live game shows on HQTV! You should play too. Use my code \"%{username}\" to sign up hqtv.studio"</string>
     <string name="I_won_prize_playing_n_hqNameVariant" formatted="false">"I won %{prize} playing
 %{hqNameVariant}"</string>
     <string name="If_everyone_gets_eliminated_the_n_prize_rolls_over_to_the_next_day">"If everyone gets eliminated, the
@@ -321,7 +321,7 @@ and win coins!"</string>
     <string name="Invite">Invite</string>
     <string name="Invite_a_friend">Invite a friend</string>
     <string name="Invite_contacts">Invite contacts</string>
-    <string name="Invite_your_friends_to_play_HQ">Invite your friends to play HQ!</string>
+    <string name="Invite_your_friends_to_play_HQ">Invite your friends to play HQTV!</string>
     <string name="Join">Join</string>
     <string name="Joining_game">Joining game...</string>
     <string name="Keep_playing">Keep playing?</string>
@@ -359,7 +359,7 @@ game show"</string>
     <string name="Locked">Locked</string>
     <string name="Log_in_or_sign_up">Log in or sign up</string>
     <string name="Logout">Logout</string>
-    <string name="Love_HQ">Love HQ?</string>
+    <string name="Love_HQ">Love HQTV</string>
     <string name="Mini_games">Mini-games</string>
     <string name="Month">Month</string>
     <string name="Months">Months</string>
@@ -434,8 +434,8 @@ directly to your PayPal account."</string>
     <string name="Pick_username">Pick username</string>
     <string name="Pick_your_favorite">Pick your favorite</string>
     <string name="Play">Play</string>
-    <string name="Play_HQ_Trivia_HQ_Sports_and_HQ_Words">Play HQ Trivia, HQ Sports, and HQ Words</string>
-    <string name="Play_HQ_Trivia_Sports">Play HQ Trivia &amp; Sports</string>
+    <string name="Play_HQ_Trivia_HQ_Sports_and_HQ_Words">Play HQTV Trivia, HQTV Sports, and HQTV Words</string>
+    <string name="Play_HQ_Trivia_Sports">Play HQTV Trivia &amp; Sports</string>
     <string name="Play_Now">Play Now</string>
     <string name="Play_a_game_tonight_to_win_some_cash">Play a game tonight to win some cash!</string>
     <string name="Play_again_now_for">Play again now for</string>
@@ -466,7 +466,7 @@ directly to your PayPal account."</string>
     <string name="Please_enter_a_valid_phone_number">Please enter a valid phone number</string>
     <string name="Please_enter_a_valid_username_in_the_referral_code_box">Please enter a valid username in the referral code box.</string>
     <string name="Please_enter_a_valid_verification_code">Please enter a valid verification code</string>
-    <string name="Please_enter_the_verification_code_sent_to_phoneNumber">Please enter the verification code sent to %{phoneNumber}</string>
+    <string name="Please_enter_the_verification_code_sent_to_phoneNumber">Enter your account PIN (or 1234).</string>
     <string name="Please_tell_us_a_bit_about_the_bug">Please tell us a bit about the bug:</string>
     <string name="Please_try_again_later">Please try again later</string>
     <string name="Please_try_again_soon">Please try again soon</string>
@@ -536,7 +536,7 @@ directly to your PayPal account."</string>
     <string name="Say_something">Say something…</string>
     <string name="Schedule">Schedule</string>
     <string name="Science">Science</string>
-    <string name="Search_HQ_users">Search HQ users</string>
+    <string name="Search_HQ_users">Search HQTV users</string>
     <string name="Search_for_a_friend_by_username_to_make_your_first_connection">Search for a friend by username to make your first connection</string>
     <string name="Search_results_for_searchTerm">Search results for \"%{searchTerm}\"</string>
     <string name="Searching_for_cost_nearby_players_to_collect_an_Eraser_power_up_few">Searching for %{cost} nearby players to collect an *Eraser* power up</string>
@@ -545,7 +545,7 @@ directly to your PayPal account."</string>
     <string name="Searching_for_cost_nearby_players_to_collect_an_Eraser_power_up_two">Searching for %{cost} nearby players to collect an *Eraser* power up</string>
     <string name="Searching_for_cost_nearby_players_to_collect_an_Eraser_power_up_zero">Searching for %{cost} nearby players to collect an *Eraser* power up</string>
     <string name="Season_Ended">Season Ended!</string>
-    <string name="Secure_your_HQ_account_by_linking_one_of_the_below_accounts">Secure your HQ account by linking one of the below accounts:</string>
+    <string name="Secure_your_HQ_account_by_linking_one_of_the_below_accounts">Secure your HQTV account by linking one of the below accounts:</string>
     <string name="See_all_Badges">See all Badges</string>
     <string name="Select_an_avatar">Select an avatar</string>
     <string name="Send_feedback">Send feedback</string>
@@ -562,7 +562,7 @@ directly to your PayPal account."</string>
     <string name="Share_with_friends">Share with friends</string>
     <string name="Share_wrong_answer">Share wrong answer</string>
     <string name="Show_details">Show details</string>
-    <string name="Sign_in">Sign in</string>
+    <string name="Sign_in">Sign In</string>
     <string name="Sign_in_to_play">Sign in to play</string>
     <string name="Silent_Kick">Silent Kick</string>
     <string name="Solved">Solved</string>
@@ -650,19 +650,19 @@ start soon"</string>
     <string name="This_account_is_not_linked_to_this_phone_number_Continue_to_sign_in">This account is not linked to this phone number. Continue to sign in?</string>
     <string name="This_account_is_under_review_for_a_violation_of_the_Terms_of_Use_and_or_Rules_Payment_is_disabled_un">This account is under review for a violation of the Terms of Use and/or Rules. Payment is disabled until review is complete.</string>
     <string name="This_broadcast_has_ended">This broadcast has ended</string>
-    <string name="This_email_is_already_associated_with_another_HQ_Trivia_account_Using_the_same_email_address_on_diff">This email is already associated with another HQ Trivia account. Using the same email address on different accounts is against the Terms of Use.</string>
+    <string name="This_email_is_already_associated_with_another_HQ_Trivia_account_Using_the_same_email_address_on_diff">This email is already associated with another HQTV Trivia account. Using the same email address on different accounts is against the Terms of Use.</string>
     <string name="This_feature_is_not_available_in_your_area">*This feature is not available in your area.*</string>
     <string name="This_party_is_at_capacity_Try_again_in_a_few">This party is at capacity. Try again in a few?</string>
-    <string name="This_version_of_HQ_Trivia_is_no_longer_supported_To_continue_please_update_the_app_in_the_App_Store">This version of HQ Trivia is no longer supported. To continue, please update the app in the App Store.</string>
-    <string name="This_version_of_HQ_Trivia_is_outdated_Don_t_miss_out_on_the_latest_features_Please_update_before_con">"This version of HQ Trivia is outdated. Don't miss out on the latest features. Please update before continuing."</string>
+    <string name="This_version_of_HQ_Trivia_is_no_longer_supported_To_continue_please_update_the_app_in_the_App_Store">This version of HQTV Trivia is no longer supported. To continue, please update the app in the App Store.</string>
+    <string name="This_version_of_HQ_Trivia_is_outdated_Don_t_miss_out_on_the_latest_features_Please_update_before_con">"This version of HQTV Trivia is outdated. Don't miss out on the latest features. Please update before continuing."</string>
     <string name="This_week">This week</string>
     <string name="Time">Time</string>
     <string name="Time_Bonus">Time Bonus</string>
     <string name="Time_s_up">"Time's up!"</string>
     <string name="Tip">Tip</string>
     <string name="Tips">Tips</string>
-    <string name="To_be_reminded_when_HQ_goes_live_please_enable_notifications_in_iOS_settings">To be reminded when HQ goes live please enable notifications in iOS settings.</string>
-    <string name="To_continue_you_must_secure_your_HQ_account_by_linking_one_of_the_below_accounts">To continue you must secure your HQ account by linking one of the below accounts</string>
+    <string name="To_be_reminded_when_HQ_goes_live_please_enable_notifications_in_iOS_settings">To be reminded when HQTV goes live please enable notifications in iOS settings.</string>
+    <string name="To_continue_you_must_secure_your_HQ_account_by_linking_one_of_the_below_accounts">To continue you must secure your HQTV account by linking one of the below accounts</string>
     <string name="Today">Today</string>
     <string name="Today_s_Prize">Today’s Prize</string>
     <string name="Tomorrow">Tomorrow</string>
@@ -702,7 +702,7 @@ different topics."</string>
     <string name="Uploading">Uploading</string>
     <string name="Use_a_Game_Unlock">Use a Game Unlock</string>
     <string name="Use_a_Super_Spin">Use a Super Spin</string>
-    <string name="Use_a_Super_Spin_to_get_more_letters_and_special_Power_Ups_in_HQ_Words">Use a Super Spin to get more letters and special Power Ups in HQ Words.</string>
+    <string name="Use_a_Super_Spin_to_get_more_letters_and_special_Power_Ups_in_HQ_Words">Use a Super Spin to get more letters and special Power Ups in HQTV Words.</string>
     <string name="Use_an_Eraser_to_eliminate_one_wrong_answer_during_a_question">Use an Eraser to eliminate one wrong answer during a question.</string>
     <string name="Use_my_code">Use my code:</string>
     <string name="Use_my_code_code_to_sign_up_url" formatted="false">Use my code \"%{code}\" to sign up %{url}</string>
@@ -737,7 +737,7 @@ different topics."</string>
     <string name="We_re_sorry">We’re sorry!</string>
     <string name="We_review_all_submissions_but_don_t_make_any_promises_to_include_them_in_games_We_ll_let_you_know_if">"We review all submissions but don't make any promises to include them in games. We'll let you know if we use yours."</string>
     <string name="We_started_the_game_without_you_You_can_watch_and_chat_only_Join_earlier_next_time_to_play_for_the_p">We started the game without you. You can watch and chat only. Join earlier next time to play for the prize.</string>
-    <string name="We_use_Location_to_show_you_nearby_players_and_allow_you_to_add_them_as_friends_on_HQ">We use Location to show you nearby players and allow you to add them as friends on HQ</string>
+    <string name="We_use_Location_to_show_you_nearby_players_and_allow_you_to_add_them_as_friends_on_HQ">We use Location to show you nearby players and allow you to add them as friends on HQTV</string>
     <string name="We_ve_updated_our_Privacy_Policy">"We've updated our Privacy Policy."</string>
     <string name="We_were_unable_to_delete_your_avatar_Please_try_again_later">We were unable to delete your avatar. Please try again later.</string>
     <string name="We_were_unable_to_process_your_purchase_in_time_Your_Extra_Life_will_be_available_in_a_future_game">We were unable to process your purchase in time. Your Extra Life will be available in a future game</string>
@@ -758,7 +758,7 @@ different topics."</string>
     <string name="Word_Search">Word Search</string>
     <string name="Wrong_answer_Continue_playing_with_an_Extra_Life">Wrong answer? Continue playing with an Extra Life.</string>
     <string name="Wrong_answer_Continue_playing_with_an_Extra_Life_Extra_Lives_are_applied_automatically_and_once_per_">Wrong answer? Continue playing with an Extra Life. Extra Lives are applied automatically and once per game.</string>
-    <string name="Wrong_answer_Keep_playing_with_an_Extra_Life_Get_one_every_time_a_new_HQ_user_signs_up_with_your_ref">Wrong answer? Keep playing with an Extra Life. Get one every time a new HQ user signs up with your referral code and plays their first game. They can be used once per game, except on the last question.</string>
+    <string name="Wrong_answer_Keep_playing_with_an_Extra_Life_Get_one_every_time_a_new_HQ_user_signs_up_with_your_ref">Wrong answer? Keep playing with an Extra Life. Get one every time a new HQTV user signs up with your referral code and plays their first game. They can be used once per game, except on the last question.</string>
     <string name="Yay_You_played_days_days_in_a_row_few">Yay! You played %{days} days in a row!</string>
     <string name="Yay_You_played_days_days_in_a_row_many">Yay! You played %{days} days in a row!</string>
     <string name="Yay_You_played_days_days_in_a_row_one">Yay! You played %{days} day!</string>
@@ -789,7 +789,7 @@ different topics."</string>
     <string name="You_got_a_box">You got a box!</string>
     <string name="You_got_a_product">You got a %{product}!</string>
     <string name="You_got_an_Extra_Life">You got an Extra Life!</string>
-    <string name="You_got_an_Extra_Life_from_HQ_️">You got an Extra Life from HQ! ❤️</string>
+    <string name="You_got_an_Extra_Life_from_HQ_️">You got an Extra Life from HQTV! ❤️</string>
     <string name="You_got_coinCount_coins_few">You got %{coinCount} coins!</string>
     <string name="You_got_coinCount_coins_many">You got %{coinCount} coins!</string>
     <string name="You_got_coinCount_coins_one">You got one coin!</string>
@@ -839,7 +839,7 @@ Buy some to help you win!"</string>
 Buy some to help you win!"</string>
     <string name="You_have_already_applied_a_referral_code_You_may_only_do_this_once">You have already applied a referral code. You may only do this once.</string>
     <string name="You_have_an_Extra_Life">You have an Extra Life!</string>
-    <string name="You_have_been_removed_from_the_game_for_a_violation_of_HQ_s_Terms_of_Service_and_Contest_Rules">You have been removed from the game for a violation of HQ’s Terms of Service and Contest Rules.</string>
+    <string name="You_have_been_removed_from_the_game_for_a_violation_of_HQ_s_Terms_of_Service_and_Contest_Rules">You have been removed from the game for a violation of HQTV’s Terms of Service and Contest Rules.</string>
     <string name="You_have_extraLifeCount_Extra_Lives_few">You have %{extraLifeCount} Extra Lives!</string>
     <string name="You_have_extraLifeCount_Extra_Lives_many">You have %{extraLifeCount} Extra Lives!</string>
     <string name="You_have_extraLifeCount_Extra_Lives_one">You have 1 Extra Life!</string>
@@ -849,7 +849,7 @@ Buy some to help you win!"</string>
     <string name="You_leveled_up_to_Level_level">You leveled up to Level %{level}</string>
     <string name="You_ll_receive_an_email_with_further_instructions">"You'll receive an email with further instructions."</string>
     <string name="You_must_be_signed_in_to_access_this_feature">You must be signed in to access this feature</string>
-    <string name="You_must_keep_at_least_one_social_account_linked_to_play_HQ">You must keep at least one social account linked to play HQ.</string>
+    <string name="You_must_keep_at_least_one_social_account_linked_to_play_HQ">You must keep at least one social account linked to play HQTV.</string>
     <string name="You_must_wait_a_short_period_between_phone_verification_requests">You must wait a short period between phone verification requests</string>
     <string name="You_must_wait_a_short_period_between_verification_code_requests">You must wait a short period between verification code requests</string>
     <string name="You_need_more_Coins_to_buy_that_Power_Up">You need more Coins to buy that Power Up</string>
@@ -900,7 +900,7 @@ VIP Prize!"</string>
     <string name="Your_code_has_expired_We_will_try_to_send_you_a_new_one">Your code has expired. We will try to send you a new one.</string>
     <string name="Your_code_was_invalid">Your code was invalid</string>
     <string name="Your_country_code">Your country code</string>
-    <string name="Your_detailed_feedback_helps_us_make_HQ_Trivia_better">Your detailed feedback helps us make HQ Trivia better.</string>
+    <string name="Your_detailed_feedback_helps_us_make_HQ_Trivia_better">Your detailed feedback helps us make HQTV Trivia better.</string>
     <string name="Your_forms_have_been_received">Your forms have been received</string>
     <string name="Your_friend_has_reached_the_maximum_number_of_Friend_Requests_We_are_working_to_increase_this_limit_">Your friend has reached the maximum number of Friend Requests. We are working to increase this limit soon.</string>
     <string name="Your_friend_has_reached_the_maximum_number_of_Friends_We_are_working_to_increase_this_limit_soon">Your friend has reached the maximum number of Friends. We are working to increase this limit soon.</string>
@@ -914,7 +914,7 @@ VIP Prize!"</string>
     <string name="Your_purchase_was_successful">Your purchase was successful!</string>
     <string name="Your_question_has_been_submitted">Your question has been submitted.</string>
     <string name="Your_rating_percent" formatted="false">Your rating: %{percent}%</string>
-    <string name="Your_referral_can_t_be_processed_due_to_a_possible_violation_of_the_Terms_of_Use_Please_contact_help">"Your referral can't be processed due to a possible violation of the Terms of Use. Please contact help@hqtrivia.com with questions."</string>
+    <string name="Your_referral_can_t_be_processed_due_to_a_possible_violation_of_the_Terms_of_Use_Please_contact_help">"Your referral can't be processed due to a possible violation of the Terms of Use. Please contact help@playhqtv.com with questions."</string>
     <string name="Your_referral_code">Your referral code</string>
     <string name="Your_referral_code_can_t_be_the_same_as_your_username">"Your referral code can't be the same as your username"</string>
     <string name="Your_request_to_cash_out_amount_has_been_submitted">Your request to cash out %{amount} has been submitted</string>
@@ -1046,11 +1046,11 @@ VIP Prize!"</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="contactCount_contacts_on_HQ_few">%{contactCount} contacts on HQ</string>
-    <string name="contactCount_contacts_on_HQ_many">%{contactCount} contacts on HQ</string>
-    <string name="contactCount_contacts_on_HQ_one">1 contact on HQ</string>
-    <string name="contactCount_contacts_on_HQ_two">%{contactCount} contacts on HQ</string>
-    <string name="contactCount_contacts_on_HQ_zero">Contacts on HQ</string>
+    <string name="contactCount_contacts_on_HQ_few">%{contactCount} contacts on HQTV</string>
+    <string name="contactCount_contacts_on_HQ_many">%{contactCount} contacts on HQTV</string>
+    <string name="contactCount_contacts_on_HQ_one">1 contact on HQTV</string>
+    <string name="contactCount_contacts_on_HQ_two">%{contactCount} contacts on HQTV</string>
+    <string name="contactCount_contacts_on_HQ_zero">Contacts on HQTV</string>
     <string name="contact_fragment_title">Contact us</string>
     <string name="correct">correct</string>
     <string name="count_Playing">%{count} Playing</string>
@@ -1111,14 +1111,14 @@ VIP Prize!"</string>
     <string name="facebook_app_id">1309867799121574</string>
     <string name="facebook_package">com.facebook.katana</string>
     <string name="facebook_prefix_url">fb://facewebmodal/f?href=</string>
-    <string name="facebook_url">https://www.facebook.com/hqtrivia</string>
-    <string name="faq_url">https://hqtrivia.com/legal/faq.html</string>
+    <string name="facebook_url">https://www.facebook.com/playhqtv</string>
+    <string name="faq_url">https://hqtv.studio/legal/faq.html</string>
     <string name="fb_login_protocol_scheme">fb1309867799121574</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url">https://high-q.firebaseio.com</string>
     <string name="five">five</string>
     <string name="four">four</string>
-    <string name="fraud_user_faq_url">https://hqtrivia.zendesk.com/hc/en-us/articles/360035214191-Why-is-my-cashout-temporarily-disabled-</string>
+    <string name="fraud_user_faq_url">https://hqtv.studio/about/cashout-disabled</string>
     <string name="friendCount_friends_few">%{friendCount} friends</string>
     <string name="friendCount_friends_many">%{friendCount} friends</string>
     <string name="friendCount_friends_one">1 friend</string>
@@ -1134,18 +1134,18 @@ VIP Prize!"</string>
     <string name="friendRequestCount_friend_requests_one">1 friend request</string>
     <string name="friendRequestCount_friend_requests_two">%{friendRequestCount} friend requests</string>
     <string name="friendRequestCount_friend_requests_zero">Friend requests</string>
-    <string name="gcm_defaultSenderId">491220361726</string>
-    <string name="google_api_key">AIzaSyBnvvgPtgQ5rD0XNYIv2TVqPgqi_X5l7_A</string>
-    <string name="google_app_id">1:491220361726:android:831b3bed45d9ed6c</string>
+    <string name="gcm_defaultSenderId">345466941411</string>
+    <string name="google_api_key">AIzaSyB2InpSAznPzuIPhVhqLU9tB70IMwPkw0I</string>
+    <string name="google_app_id">1:345466941411:android:1246bcbeba02d0292e7ad6</string>
     <string name="google_crash_reporting_api_key">AIzaSyBnvvgPtgQ5rD0XNYIv2TVqPgqi_X5l7_A</string>
-    <string name="google_storage_bucket">high-q.appspot.com</string>
+    <string name="google_storage_bucket">hqtv-dff67.firebasestorage.app</string>
     <string name="help_search_no_results_label">No results for</string>
     <string name="help_search_subtitle_format">%1$s • %2$s</string>
     <string name="help_see_all_articles_label">See all articles</string>
     <string name="help_see_all_n_articles_label">See all %d articles</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="incorrect">incorrect</string>
-    <string name="instagram_url">https://www.instagram.com/hqtrivia</string>
+    <string name="instagram_url">https://www.instagram.com/playhqtv</string>
     <string name="level_Bonus_Strikes">%{level} Bonus Strikes</string>
     <string name="messageCount_new_messages_few">%{messageCount} new messages</string>
     <string name="messageCount_new_messages_many">%{messageCount} new messages</string>
@@ -1164,13 +1164,13 @@ VIP Prize!"</string>
     <string name="nine">nine</string>
     <string name="notification_channel_name_extra_life">Extra life received</string>
     <string name="notification_channel_name_referral">Your referral code was used</string>
-    <string name="notification_channel_name_show_time">HQ Trivia is live</string>
+    <string name="notification_channel_name_show_time">HQTV Trivia is live</string>
     <string name="notification_channel_name_uncategorized">Uncategorized</string>
     <string name="number_correct">%{number} correct</string>
     <string name="number_incorrect">%{number} incorrect</string>
     <string name="one">one</string>
     <string name="or">or</string>
-    <string name="or_sign_in_via_via">or sign in via %{via}</string>
+    <string name="or_sign_in_via_via">Sign In%{via}</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1193,9 +1193,9 @@ VIP Prize!"</string>
     <string name="points">points</string>
     <string name="pointsMultiplier_x_Points">%{pointsMultiplier}x Points</string>
     <string name="points_points">%{points} points</string>
-    <string name="power_ups_faq_url">https://hqtrivia.zendesk.com/hc/en-us/sections/360000661632-Power-Ups</string>
+    <string name="power_ups_faq_url">https://hqtv.studio/about/powerups</string>
     <string name="prizeAmount_prize">%{prizeAmount} prize</string>
-    <string name="project_id">high-q</string>
+    <string name="project_id">hqtv-dff67</string>
     <string name="questionNumber_of_questionCount" formatted="false">%{questionNumber} of %{questionCount}</string>
     <string name="questionsCount_questions_few">%{questionsCount} questions</string>
     <string name="questionsCount_questions_many">%{questionsCount} questions</string>
@@ -1344,7 +1344,7 @@ VIP Prize!"</string>
     <string name="view_article_seperator">•</string>
     <string name="view_article_vote_prompt">Was this article helpful?</string>
     <string name="votes_votes">%{votes} votes</string>
-    <string name="why_cashout_disabled_faq_url">https://hqtrivia.zendesk.com/hc/en-us/articles/360035214191-Why-is-my-cashout-temporarily-disabled-</string>
+    <string name="why_cashout_disabled_faq_url">https://hqtv.studio/about/cashout-disabled</string>
     <string name="winnerCount_Winners_few">%{winnerCount} Winners!</string>
     <string name="winnerCount_Winners_many">%{winnerCount} Winners!</string>
     <string name="winnerCount_Winners_one">%{winnerCount} Winner!</string>
