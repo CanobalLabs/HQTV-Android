@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?colorPrimary" android:gravity="center" android:id="@id/zui_action_option_name" android:background="@color/zui_color_white_100" android:paddingLeft="@dimen/zui_cell_transfer_option_margin" android:paddingTop="@dimen/zui_cell_transfer_option_margin" android:paddingRight="@dimen/zui_cell_transfer_option_margin" android:paddingBottom="@dimen/zui_cell_transfer_option_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zui_layout_divider_size" android:textIsSelectable="false" android:importantForAccessibility="no" style="@style/ZendeskSdkTheme.Light.Cell.Text.Response"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

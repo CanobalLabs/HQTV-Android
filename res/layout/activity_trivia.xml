@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/triviaActivity" android:background="@color/hq_blue" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/game_video_view" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/chat_view_pager" />
+        <include layout="@layout/game_viewer_stats_view" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/game_debug_view" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/trivia_question_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/grid_22" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/winners_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/winners_badge_text_view" android:background="@drawable/background_winners_badge_round" android:paddingTop="@dimen/grid_1" android:paddingBottom="@dimen/grid_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" android:text="@string/Winners" android:paddingStart="@dimen/grid_4" android:paddingEnd="@dimen/grid_4" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/winnersList" android:padding="@dimen/activity_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.intermedia.trivia.TriviaQuestionView android:id="@id/trivia_question_view" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/callout_view" />
+        <include layout="@layout/bbi_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:layout_gravity="end|bottom" android:orientation="vertical" android:id="@id/powerUpsContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_8" android:layout_marginEnd="@dimen/grid_2">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/erase1Fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_1" app:elevation="0.0dip" app:fabCustomSize="@dimen/grid_6" app:rippleColor="@color/white" app:srcCompat="@drawable/ic_eraser" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/extraLifeFab" android:layout_width="wrap_content" android:layout_height="wrap_content" app:elevation="0.0dip" app:fabCustomSize="@dimen/grid_6" app:rippleColor="@color/white" app:srcCompat="@drawable/ic_heart" />
+    </LinearLayout>
+    <View android:id="@id/modalBackgroundOverlay" android:background="@color/black_alpha_30" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/extra_life_animation_view" />
+</FrameLayout>

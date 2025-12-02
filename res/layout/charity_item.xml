@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/charity_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/logoView" android:layout_width="@dimen/grid_10" android:layout_height="@dimen/grid_10" android:layout_marginBottom="@dimen/grid_2" android:src="@drawable/charity_logo" app:layout_constraintBottom_toTopOf="@id/divider" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/subtitle" android:id="@id/titleView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/grid_2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/logoView" app:layout_constraintTop_toTopOf="parent" style="@style/Caption1Primary" />
+    <View android:id="@id/divider" android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/grid_2" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

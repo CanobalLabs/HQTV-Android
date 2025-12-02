@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/jokesWinnerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.intermedia.hlsplayer.PlayerCircleView android:id="@id/circlePlayerView" android:layout_width="@dimen/grid_8" android:layout_height="@dimen/grid_8" android:layout_marginTop="@dimen/grid_7" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/title" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/roundResults" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" android:fontFamily="@font/circularstdmedium" app:layout_constraintTop_toBottomOf="@id/circlePlayerView" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/line1View" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_4" app:layout_constraintTop_toBottomOf="@id/roundResults" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/line2View" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/line1View" />
+</androidx.constraintlayout.widget.ConstraintLayout>

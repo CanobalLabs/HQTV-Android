@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/roundedProgressBarBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/grid_5">
+        <androidx.cardview.widget.CardView android:id="@id/roundedProgressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</merge>

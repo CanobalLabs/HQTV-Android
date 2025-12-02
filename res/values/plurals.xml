@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Friend_requests">
+        <item quantity="other">%s Friend Requests</item>
+        <item quantity="one">%s Friend Request</item>
+    </plurals>
+    <plurals name="Number_of_friends">
+        <item quantity="other">%s friends</item>
+        <item quantity="one">%s friend</item>
+    </plurals>
+    <plurals name="Number_of_friends_still_in">
+        <item quantity="other">%s friends still in</item>
+        <item quantity="one">%s friend still in</item>
+    </plurals>
+    <plurals name="Number_of_people">
+        <item quantity="other">%s People</item>
+        <item quantity="one">%s Person</item>
+    </plurals>
+    <plurals name="Other_viewers">
+        <item quantity="other">%s others</item>
+        <item quantity="one">%s other</item>
+    </plurals>
+    <plurals name="Other_viewers_still_in">
+        <item quantity="other">%s others still in</item>
+        <item quantity="one">%s other still in</item>
+    </plurals>
+    <plurals name="new_message_count">
+        <item quantity="other">%d new messages</item>
+        <item quantity="one">%d new message</item>
+    </plurals>
+    <plurals name="people_nearby">
+        <item quantity="other">%s people nearby</item>
+        <item quantity="one">%s person nearby</item>
+    </plurals>
+    <plurals name="winner_count_winners">
+        <item quantity="other">%d Winners!</item>
+        <item quantity="one">%d Winner!</item>
+    </plurals>
+</resources>

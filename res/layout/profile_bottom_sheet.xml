@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/profile_action_bottom_sheet" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:behavior_hideable="true" app:behavior_peekHeight="0.0dip" app:layout_behavior="@string/bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/profile_sheet_block" android:text="@string/Block_user" android:drawableBottom="@color/mid_grey" style="@style/BottomSheetRow" />
+    <TextView android:id="@id/profile_sheet_remove" android:text="@string/Remove_friend" style="@style/BottomSheetRow" />
+    <include layout="@layout/view_divider_horizontal_0_5" />
+    <TextView android:textColor="@color/hq_red" android:id="@id/profile_sheet_cancel" android:text="@string/Cancel" style="@style/BottomSheetRow" />
+</LinearLayout>

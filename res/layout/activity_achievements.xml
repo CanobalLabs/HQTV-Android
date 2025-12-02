@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/achievements_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/achievement_count_header_container" android:paddingTop="?android:actionBarSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="70.0sp" android:textColor="@color/hq_purple" android:gravity="center" android:id="@id/earned_achievement_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_3_half" android:text="‒" android:fontFamily="@font/circularstdmedium" app:autoSizeMaxTextSize="70.0sp" app:autoSizeMinTextSize="54.0sp" app:autoSizeTextType="uniform" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/colorAccent2" android:gravity="center" android:paddingTop="@dimen/grid_1_half" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Unlock_badges_by_getting_nquestions_right_in_ndifferent_topics" android:lineSpacingExtra="1.1999817dip" android:fontFamily="@font/circularstdbook" app:autoSizeMaxTextSize="18.0sp" app:autoSizeMinTextSize="14.0sp" app:autoSizeTextType="uniform" />
+    </LinearLayout>
+    <androidx.appcompat.widget.Toolbar android:id="@id/achievements_toolbar" android:elevation="0.0dip" app:layout_constraintTop_toTopOf="parent" style="@style/ToolbarLight">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/grid_2">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Badges" app:autoSizeMaxTextSize="22.0sp" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ToolbarTitle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/achievements_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?android:actionBarSize" />
+    <View android:id="@id/achievements_modal_overlay" android:background="@color/black_alpha_30" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

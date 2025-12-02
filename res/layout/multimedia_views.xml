@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Group android:id="@id/audioQuestionWaveformGroup" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="audioQuestionBlueWaveform,audioQuestionGreenWaveform" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/multimediaQuestionGradientGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.3" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/audioQuestionImageGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.25" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/multimediaQuestionImageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/multimediaQuestionVideoView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="zoom" app:use_controller="false" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/audioQuestionGreenWaveform" android:layout_width="fill_parent" android:layout_height="@dimen/grid_4" app:layout_constraintBottom_toBottomOf="@id/audioQuestionImageGuideline" app:layout_constraintTop_toTopOf="@id/audioQuestionImageGuideline" app:srcCompat="@drawable/green_waveform" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/audioQuestionBlueWaveform" android:layout_width="fill_parent" android:layout_height="@dimen/grid_14" app:layout_constraintBottom_toBottomOf="@id/audioQuestionImageGuideline" app:layout_constraintTop_toTopOf="@id/audioQuestionImageGuideline" app:srcCompat="@drawable/blue_waveform" />
+    <View android:id="@id/multimediaQuestionGradient" android:background="@drawable/transparent_to_dark_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/multimediaQuestionGradientGuideline" />
+</merge>

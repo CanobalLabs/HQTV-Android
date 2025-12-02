@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/extraLifeLottieAnimationView" android:paddingTop="@dimen/grid_7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_enableMergePathsForKitKatAndAbove="true" app:lottie_rawRes="@raw/extra_life_anim" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="42.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/backInGameTextView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/grid_8" android:text="@string/Back_in_the_game" android:layout_marginStart="@dimen/grid_1" android:layout_marginEnd="@dimen/grid_1" app:autoSizeMaxTextSize="42.0sp" app:autoSizeTextType="uniform" style="@style/Headline" />
+</merge>

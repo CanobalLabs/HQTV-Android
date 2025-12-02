@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_divider_horizontal_1" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_header_secondary" android:id="@id/socialAccountsTitleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_1" android:text="@string/Link_a_social_account" android:fontFamily="@font/circularstdmedium" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" android:layout_marginBottom="@dimen/grid_3_half">
+        <TextView android:textColor="#ff36399a" android:gravity="start|center" android:id="@id/fbAddButton" android:background="@drawable/rounded_gray_stroke_56dp" android:layout_marginBottom="0.0dip" android:text="@string/Facebook" android:drawablePadding="@dimen/grid_2" android:drawableStart="@drawable/ic_facebook_logo" android:backgroundTint="@color/hqx_heart_gray" style="@style/baseSocialLoginButton" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/text_darker_purple" android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/fbConnectionStateView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/grid_1" android:drawableEnd="@drawable/ic_check_circle_background" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_2" />
+        <ProgressBar android:layout_gravity="end|center" android:id="@id/fbProgressView" android:visibility="gone" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" android:layout_marginEnd="@dimen/grid_3_half" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_3">
+        <TextView android:textColor="#ff36399a" android:gravity="start|center" android:id="@id/googleAddButton" android:background="@drawable/rounded_gray_stroke_56dp" android:layout_marginBottom="0.0dip" android:text="@string/Google" android:drawablePadding="@dimen/grid_2" android:drawableStart="@drawable/ic_google_logo" android:backgroundTint="@color/hqx_heart_gray" style="@style/baseSocialLoginButton" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/text_darker_purple" android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/googleConnectionStateView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/grid_1" android:drawableEnd="@drawable/ic_check_circle_background" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_2" />
+        <ProgressBar android:layout_gravity="end|center" android:id="@id/googleProgressView" android:visibility="gone" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" android:layout_marginEnd="@dimen/grid_3_half" />
+    </FrameLayout>
+    <include layout="@layout/view_divider_horizontal_1" />
+</LinearLayout>

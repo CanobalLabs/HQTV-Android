@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:interpolator="@android:interpolator/overshoot" android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:duration="200">
+        <targets>
+            <target android:targetId="@id/warmUpQuestionTitleView" />
+            <target android:targetId="@id/warmUpQuestionTypeTitleView" />
+        </targets>
+    </changeBounds>
+    <fade android:fadingMode="fade_in">
+        <targets>
+            <target android:targetId="@id/warmupColorAnswers" />
+        </targets>
+    </fade>
+</transitionSet>

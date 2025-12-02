@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="750" motion:motionInterpolator="easeInOut">
+        <KeyFrameSet>
+            <KeyPosition motion:framePosition="20" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundBackground" motion:percentY="1.05" />
+            <KeyPosition motion:framePosition="30" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundBackground" motion:percentY="1.05" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxRoundNumber" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="19" motion:motionTarget="@id/hqxRoundNumber" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="20" motion:motionTarget="@id/hqxRoundNumber" />
+            <KeyPosition motion:framePosition="40" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundNumber" motion:percentY="1.1" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxRoundCategory" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="39" motion:motionTarget="@id/hqxRoundCategory" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="40" motion:motionTarget="@id/hqxRoundCategory" />
+            <KeyPosition motion:framePosition="60" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundCategory" motion:percentY="1.1" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxRoundProgressBar" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="59" motion:motionTarget="@id/hqxRoundProgressBar" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="60" motion:motionTarget="@id/hqxRoundProgressBar" />
+            <KeyPosition motion:framePosition="80" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundProgressBar" motion:percentY="1.1" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxRoundButtonIcon" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="69" motion:motionTarget="@id/hqxRoundButtonIcon" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="70" motion:motionTarget="@id/hqxRoundButtonIcon" />
+            <KeyPosition motion:framePosition="90" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundButtonIcon" motion:percentY="1.1" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxRoundButtonText" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="69" motion:motionTarget="@id/hqxRoundButtonText" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="70" motion:motionTarget="@id/hqxRoundButtonText" />
+            <KeyPosition motion:framePosition="90" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/hqxRoundButtonText" motion:percentY="1.1" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/hqxRoundBackground" android:layout_width="fill_parent" android:layout_height="0.0dip" motion:layout_constraintTop_toBottomOf="parent" />
+        <Constraint android:id="@id/hqxRoundBoostButton" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/hqxRoundBoostHint" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/hqxRoundBoostButtonIcon" motion:visibilityMode="ignore" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/hqxRoundBackground" />
+    </ConstraintSet>
+</MotionScene>

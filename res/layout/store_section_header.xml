@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/body" android:textColor="@color/text_primary" android:id="@id/sectionNameView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/circularstdbold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/caption_1" android:textColor="@color/text_darker_purple" android:gravity="center" android:id="@id/sectionTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" android:fontFamily="@font/circularstdbold" android:layout_marginStart="@dimen/grid_6" android:layout_marginEnd="@dimen/grid_6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sectionNameView" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/take_new_photo" android:title="@string/Take_New_Photo" />
+    <item android:id="@id/choose_from_photos" android:title="@string/Choose_from_Photos" />
+</menu>

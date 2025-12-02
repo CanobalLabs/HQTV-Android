@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="750" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.8" android:scaleY="0.8" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistWalkthroughPhoto" />
+            <KeyAttribute android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="100" motion:motionTarget="@id/hqxFinalistWalkthroughPhoto" />
+            <KeyPosition motion:framePosition="75" motion:motionTarget="@id/hqxFinalistWalkthroughCategory" motion:percentY="1.2" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistWalkthroughAvatar" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistWalkthroughAvatar" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="80" motion:motionTarget="@id/hqxFinalistWalkthroughAvatar" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistWalkthroughUsername" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="75" motion:motionTarget="@id/hqxFinalistWalkthroughUsername" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="100" motion:motionTarget="@id/hqxFinalistWalkthroughUsername" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start" />
+    <ConstraintSet android:id="@id/end" />
+</MotionScene>

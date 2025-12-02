@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/grid_11" android:layout_height="@dimen/grid_11"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.intermedia.hlsplayer.PlayerCircleView android:id="@id/countdownCirclePlayerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/grid_5_half" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/grid_1" android:src="@drawable/progress_circle_gray" android:alpha="0.2" />
+    <com.intermedia.view.ProgressBarView android:id="@id/countdownProgressBarView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/grid_1" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/progress_circle_yellow" style="?android:progressBarStyleHorizontal" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/countdown_timer" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/countdownTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

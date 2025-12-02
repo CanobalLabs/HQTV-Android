@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/offairQuestionCounterView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/offairCenterGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+        <View android:id="@id/offairQuestionCounterBackgroundView" android:background="@drawable/rounded_rect" android:layout_width="fill_parent" android:layout_height="@dimen/grid_22" android:layout_marginStart="@dimen/grid_5" android:layout_marginEnd="@dimen/grid_5" android:backgroundTint="@color/black_alpha_30" app:layout_constraintBottom_toTopOf="@id/offairCenterGuideline" />
+        <TextView android:textSize="@dimen/caption_1" android:textColor="@color/white" android:id="@id/offairQuestionCounterTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Question" android:textAllCaps="true" app:layout_constraintBottom_toTopOf="@id/offairQuestionCounterValueView" app:layout_constraintEnd_toEndOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintStart_toStartOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintTop_toTopOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintVertical_chainStyle="packed" />
+        <TextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/offairQuestionCounterValueView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_3_half" android:fontFamily="@font/circularstdbold" app:layout_constraintBottom_toBottomOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintEnd_toEndOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintStart_toStartOf="@id/offairQuestionCounterBackgroundView" app:layout_constraintTop_toBottomOf="@id/offairQuestionCounterTitleView" />
+        <include layout="@layout/offair_native_ad_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

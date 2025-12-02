@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/hq_yellow" android:gravity="center" android:id="@id/gameTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_1" android:text="THIS WARMUP COMPLETE" android:textAllCaps="true" android:fontFamily="@font/circular" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/gameEndView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_1" android:layout_marginBottom="@dimen/grid_3" android:text="Swipe to play another warmup game" android:lines="3" android:fontFamily="@font/circularstdbold" android:layout_marginStart="@dimen/grid_3" android:layout_marginEnd="@dimen/grid_3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gameTitleView" app:layout_constraintWidth_max="@dimen/grid_27" />
+</LinearLayout>

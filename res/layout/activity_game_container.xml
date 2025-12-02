@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/gameActivityContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/gameDrawer" android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/game_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/friends_in_game" />
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <View android:id="@id/bottomSheetOverlay" android:background="@color/black_alpha_20" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:visibility="invisible" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/wave_bottom_sheet" />
+</androidx.constraintlayout.widget.ConstraintLayout>

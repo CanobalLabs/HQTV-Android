@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/grid_7" android:paddingStart="@dimen/grid_2" android:paddingEnd="@dimen/grid_1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/opt_in_preference_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/BodyPrimary" />
+    <com.intermedia.ui.SilentSwitchCompat android:id="@id/opt_in_preference_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

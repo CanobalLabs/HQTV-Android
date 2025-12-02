@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/words_keyboard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/keyboardGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.75" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/keyboardContainer" android:background="@drawable/words_tile_background" android:padding="@dimen/grid_1" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/keyboardGuideline">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_row_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.33" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_row_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.66" />
+        <LinearLayout android:id="@id/topRowLayout" app:layout_constraintBottom_toBottomOf="@id/top_row_guideline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/WordsKeyboardRow" />
+        <LinearLayout android:id="@id/middleRowLayout" app:layout_constraintBottom_toBottomOf="@id/bottom_row_guideline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/top_row_guideline" style="@style/WordsKeyboardRow" />
+        <LinearLayout android:id="@id/bottomRowLayout" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/bottom_row_guideline" style="@style/WordsKeyboardRow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

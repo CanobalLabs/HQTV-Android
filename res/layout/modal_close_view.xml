@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:id="@id/modalCloseView" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/touch_target_min_width_height" android:layout_height="@dimen/touch_target_min_width_height" app:layout_constraintEnd_toEndOf="@id/modal_background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/mid_grey" app:srcCompat="@drawable/ic_close" />
+</FrameLayout>

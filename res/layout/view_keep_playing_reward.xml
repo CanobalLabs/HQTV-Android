@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/rewardContainer" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/grid_7" android:layout_weight="50.0" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/rounded_lt_gray_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/rewardIcon" android:layout_width="@dimen/grid_3" android:layout_height="@dimen/grid_3" android:layout_marginStart="@dimen/grid_1" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:gravity="center_vertical" android:id="@id/rewardValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/circularstdmedium" android:layout_marginStart="@dimen/grid_1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/text_header_secondary" android:gravity="center_vertical" android:id="@id/rewardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/circular" android:layout_marginStart="@dimen/grid_1" android:layout_marginEnd="@dimen/grid_1" app:autoSizeMaxTextSize="16.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/shoppingActivity" android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/game_video_view" />
+    <include layout="@layout/game_viewer_stats_view" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/game_debug_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

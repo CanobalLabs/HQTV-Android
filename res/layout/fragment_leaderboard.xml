@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/leaderboard_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/leaderboard_footer" />
+    <ProgressBar android:id="@id/leaderboard_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    <ImageView android:layout_gravity="top" android:id="@id/leaderboard_footer_gradient" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_above="@id/leaderboard_footer" app:srcCompat="@drawable/leaderboard_gradient_top" />
+    <RelativeLayout android:id="@id/leaderboard_footer" android:background="@color/white" android:paddingTop="@dimen/grid_1" android:paddingBottom="@dimen/grid_1" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/grid_3" android:paddingEnd="@dimen/grid_2">
+        <TextView android:textColor="@color/mid_grey" android:id="@id/self_rank_text_view" android:layout_width="@dimen/grid_4" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_1" />
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/self_avatar_image_view" android:background="@drawable/default_avatar" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/grid_2" android:layout_toEndOf="@id/self_rank_text_view" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:id="@id/self_username_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/circularstdmedium" android:layout_marginEnd="@dimen/grid_2" android:layout_toStartOf="@id/self_balance_text_view" android:layout_toEndOf="@id/self_avatar_image_view" />
+        <TextView android:id="@id/self_balance_text_view" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/TextViewBalanceRounded" />
+    </RelativeLayout>
+</RelativeLayout>

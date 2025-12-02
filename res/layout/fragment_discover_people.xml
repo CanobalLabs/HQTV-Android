@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/discover_people_container" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_users_container" android:padding="@dimen/grid_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textColor="@color/mid_grey" android:textColorHint="@color/mid_grey" android:id="@id/search_users_edit_text" android:background="@drawable/edit_text_rounded_border_white_enabled" android:layout_width="0.0dip" android:layout_height="@dimen/grid_6" android:hint="@string/Search_HQ_users" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:fontFamily="@font/circularstdbook" android:paddingStart="@dimen/grid_3" android:paddingEnd="@dimen/grid_3" android:layout_marginEnd="@dimen/grid_1" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="14.0sp" android:id="@id/button_cancel_search" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/grid_8" android:layout_height="fill_parent" android:text="@string/Cancel" android:maxLines="1" android:textAllCaps="false" android:fontFamily="@font/circularstdbook" app:autoSizeMaxTextSize="14.0sp" app:autoSizeTextType="uniform" />
+        </LinearLayout>
+        <View android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/search_users_container" android:layout_marginStart="@dimen/grid_2" android:layout_marginEnd="@dimen/grid_2" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/discover_people_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_users_container">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/discover_people_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/grid_2" android:paddingEnd="@dimen/grid_2" />
+                <include android:id="@id/empty_state_view_group" android:visibility="gone" layout="@layout/discover_people_empty_state" />
+            </RelativeLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <View android:id="@id/modal_overlay" android:background="@color/black_alpha_30" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <View android:id="@id/bottom_sheet_overlay" android:background="@color/black_alpha_20" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/profile_bottom_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

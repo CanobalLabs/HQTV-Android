@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/wave_bottom_sheet" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_body_secondary" android:id="@id/wave_title_view" android:focusable="false" android:clickable="false" android:text="@string/Send_notification" style="@style/BottomSheetRow" />
+    <include layout="@layout/view_divider_horizontal_0_5" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/wave_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <TextView android:textColor="@color/hq_red" android:id="@id/wave_cancel_view" android:text="@string/Cancel" style="@style/BottomSheetRow" />
+</LinearLayout>

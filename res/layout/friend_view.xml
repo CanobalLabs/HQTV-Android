@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/grid_1_half" android:paddingBottom="@dimen/grid_1_half" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/friend_avatar" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:id="@id/friend_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/circularstdmedium" android:layout_marginStart="@dimen/grid_2" />
+</LinearLayout>

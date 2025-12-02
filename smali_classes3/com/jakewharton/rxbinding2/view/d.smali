@@ -1,0 +1,99 @@
+.class public final Lcom/jakewharton/rxbinding2/view/d;
+.super Ljava/lang/Object;
+.source "RxView.java"
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    new-instance v0, Ljava/lang/AssertionError;
+
+    const-string v1, "No instances."
+
+    invoke-direct {v0, v1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw v0
+.end method
+
+.method public static a(Landroid/view/View;)Ldb/q;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/view/View;",
+            ")",
+            "Ldb/q<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "view == null"
+
+    .line 1
+    invoke-static {p0, v0}, Lba/d;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v0, Lcom/jakewharton/rxbinding2/view/h;
+
+    invoke-direct {v0, p0}, Lcom/jakewharton/rxbinding2/view/h;-><init>(Landroid/view/View;)V
+
+    return-object v0
+.end method
+
+.method public static b(Landroid/view/View;)Laa/a;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/view/View;",
+            ")",
+            "Laa/a<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "view == null"
+
+    .line 1
+    invoke-static {p0, v0}, Lba/d;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v0, Lcom/jakewharton/rxbinding2/view/i;
+
+    invoke-direct {v0, p0}, Lcom/jakewharton/rxbinding2/view/i;-><init>(Landroid/view/View;)V
+
+    return-object v0
+.end method
+
+.method public static c(Landroid/view/View;)Ldb/q;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/view/View;",
+            ")",
+            "Ldb/q<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "view == null"
+
+    .line 1
+    invoke-static {p0, v0}, Lba/d;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v0, Lcom/jakewharton/rxbinding2/view/o;
+
+    invoke-direct {v0, p0}, Lcom/jakewharton/rxbinding2/view/o;-><init>(Landroid/view/View;)V
+
+    return-object v0
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cashout_confirmation_layout" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/cashout_close_view" layout="@layout/modal_close_view" />
+    <ImageView android:layout_width="@dimen/grid_10" android:layout_height="@dimen/grid_10" app:srcCompat="@drawable/ic_cashout_success" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/grid_4" android:text="@string/Your_money_will_be_there_in_just_a_bit" android:fontFamily="@font/circularstdbold" />
+    <Button android:layout_gravity="center" android:id="@id/cashout_done_button" android:layout_marginBottom="@dimen/grid_4" android:text="@string/Done" android:paddingStart="@dimen/grid_5" android:paddingEnd="@dimen/grid_5" android:backgroundTint="@color/hq_red" style="@style/ButtonRound" />
+</LinearLayout>

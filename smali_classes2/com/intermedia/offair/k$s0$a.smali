@@ -1,0 +1,118 @@
+.class final Lcom/intermedia/offair/k$s0$a;
+.super Ljava/lang/Object;
+.source "OffairTriviaQuestionViewModel.kt"
+
+# interfaces
+.implements Ljb/i;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/intermedia/offair/k$s0;->a(Lcom/intermedia/model/s2;)Ldb/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljb/i<",
+        "TT;TR;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic e:J
+
+.field final synthetic f:Lcom/intermedia/model/s2;
+
+
+# direct methods
+.method constructor <init>(JLcom/intermedia/model/s2;)V
+    .locals 0
+
+    iput-wide p1, p0, Lcom/intermedia/offair/k$s0$a;->e:J
+
+    iput-object p3, p0, Lcom/intermedia/offair/k$s0$a;->f:Lcom/intermedia/model/s2;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Long;)Lkotlin/k;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Long;",
+            ")",
+            "Lkotlin/k<",
+            "Ljava/lang/Integer;",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lrc/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    new-instance v0, Lkotlin/k;
+
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v1
+
+    iget-wide v3, p0, Lcom/intermedia/offair/k$s0$a;->e:J
+
+    mul-long v1, v1, v3
+
+    long-to-int p1, v1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iget-object v1, p0, Lcom/intermedia/offair/k$s0$a;->f:Lcom/intermedia/model/s2;
+
+    invoke-virtual {v1}, Lcom/intermedia/model/s2;->getTimeLeftMs()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ly8/g0;->d(J)J
+
+    long-to-int v2, v1
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-direct {v0, p1, v1}, Lkotlin/k;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Ljava/lang/Long;
+
+    invoke-virtual {p0, p1}, Lcom/intermedia/offair/k$s0$a;->a(Ljava/lang/Long;)Lkotlin/k;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="52.0dip" android:thickness="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/jokes_winner_gradient_start" android:endColor="@color/jokes_winner_gradient_end" android:angle="135.0" android:type="linear" />
+    <size android:height="108.0dip" android:width="108.0dip" />
+    <padding android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+</shape>

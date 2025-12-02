@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.intermedia.offair.OffairTriviaBackgroundView android:id="@id/offairBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/offair_stats_view" />
+        <include layout="@layout/offair_start_view" />
+        <include layout="@layout/offair_question_view" />
+        <include layout="@layout/offair_question_counter_view" />
+        <include layout="@layout/modal_reconnecting" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

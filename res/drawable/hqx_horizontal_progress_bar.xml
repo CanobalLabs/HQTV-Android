@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="37.0dip" />
+                <solid android:color="@color/hqx_round_button_foreground" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

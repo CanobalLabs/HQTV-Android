@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/answer_result_view_container" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="@dimen/grid_7" android:layout_marginBottom="@dimen/grid_1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/resultProgressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="false" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/result_constraint_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/text_primary" android:gravity="center_vertical" android:id="@id/result_text_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="@font/circularstdmedium" android:layout_marginStart="@dimen/grid_3" android:layout_marginEnd="@dimen/grid_1" app:autoSizeMaxTextSize="20.0sp" app:autoSizeMinTextSize="14.0sp" app:autoSizeTextType="uniform" app:layout_constraintEnd_toStartOf="@id/result_count_text_view" app:layout_constraintStart_toStartOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/mid_grey" android:gravity="end|center" android:id="@id/result_count_text_view" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="@dimen/grid_2" android:lines="1" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_3" app:autoSizeMaxTextSize="14.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" app:layout_constraintEnd_toEndOf="parent" />
+        <include layout="@layout/friends_facepile_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

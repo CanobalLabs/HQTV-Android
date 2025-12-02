@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center_horizontal" android:id="@id/video_aspect_ratio" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="zoom">
+        <SurfaceView android:layout_gravity="center_horizontal" android:id="@id/fullscreen_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+        <TextureView android:layout_gravity="center_horizontal" android:id="@id/fullscreen_texture_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+        <com.intermedia.hlsplayer.BlurPlayerView android:layout_gravity="center_horizontal" android:id="@id/blurred_texture_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <View android:id="@id/video_overlay" android:background="#cc36399a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/stream_loading_activity_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:keepScreenOn="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layout_marginStart="@dimen/grid_3" android:layout_marginEnd="@dimen/grid_3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.intermedia.view.ResultProgressView android:id="@id/wordsLiveSolvedResults" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:progressDrawable="@drawable/progress_words_result" app:textColor="@color/white" app:tint="@color/correct_green" />
+    <com.intermedia.view.ResultProgressView android:id="@id/wordsLiveElimatedResults" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:progressDrawable="@drawable/progress_words_result" app:textColor="@color/white" app:tint="@color/hq_red" />
+    <com.intermedia.view.ResultProgressView android:id="@id/wordsLiveSolvingResults" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:progressDrawable="@drawable/progress_words_result" app:textColor="@color/white" app:tint="@color/tile_unflipped" />
+</LinearLayout>

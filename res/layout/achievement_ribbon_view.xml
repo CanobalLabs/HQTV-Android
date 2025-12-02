@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/grid_25" android:layout_height="@dimen/grid_25"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/achievement_ribbon" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_category_ribbon" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center|bottom" android:id="@id/achievement_ribbon_count" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/grid_1_half" android:text="3" android:fontFamily="@font/circularstdbold" app:autoSizeMaxTextSize="@dimen/subheadline" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="@id/achievement_ribbon" app:layout_constraintEnd_toEndOf="@id/achievement_ribbon" app:layout_constraintStart_toStartOf="@id/achievement_ribbon" app:layout_constraintTop_toTopOf="@id/achievement_ribbon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

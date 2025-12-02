@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="@integer/hqx_finalist_round_overlay_scene_length" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistRoundBackground" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistRoundBackground" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistRoundBackground" />
+            <KeyAttribute android:scaleX="0.0" motion:framePosition="0" motion:motionTarget="@id/finalistPill" />
+            <KeyAttribute android:scaleX="0.8" motion:framePosition="20" motion:motionTarget="@id/finalistPill" />
+            <KeyAttribute android:scaleX="1.0" motion:framePosition="25" motion:motionTarget="@id/finalistPill" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/heartFinalistUploadCategory" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/heartFinalistUploadCategory" />= <KeyAttribute android:alpha="0.0" android:scaleX="4.0" android:scaleY="4.0" motion:framePosition="0" motion:motionTarget="@id/hqxVideoPlayerBubble" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="4.0" android:scaleY="4.0" motion:framePosition="49" motion:motionTarget="@id/hqxVideoPlayerBubble" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="3.0" android:scaleY="3.0" motion:framePosition="51" motion:motionTarget="@id/hqxVideoPlayerBubble" />
+            <KeyAttribute android:scaleX="3.0" android:scaleY="3.0" motion:framePosition="51" motion:motionTarget="@id/hqxVideoPlayerBubble" />
+            <KeyAttribute android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="90" motion:motionTarget="@id/hqxVideoPlayerBubble" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistOne" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistOne" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistOne" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistTwo" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistTwo" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistTwo" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistThree" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistThree" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistThree" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistFour" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistFour" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistFour" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistFive" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistFive" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistFive" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxFinalistSix" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="49" motion:motionTarget="@id/hqxFinalistSix" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxFinalistSix" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/hqxVideoPlayerBubble" android:layout_width="wrap_content" android:layout_height="0.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintDimensionRatio="1:1" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/hqxFinalistOne" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="300" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_participant_starting_margin" />
+        <Constraint android:id="@id/hqxFinalistTwo" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="0" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_participant_starting_margin" />
+        <Constraint android:id="@id/hqxFinalistThree" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="60" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_participant_starting_margin" />
+        <Constraint android:id="@id/hqxFinalistFour" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="120" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_bottom_participant_starting_margin" />
+        <Constraint android:id="@id/hqxFinalistFive" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="180" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_participant_starting_margin" />
+        <Constraint android:id="@id/hqxFinalistSix" motion:layout_constraintCircle="@id/hqxVideoPlayerBubble" motion:layout_constraintCircleAngle="240" motion:layout_constraintCircleRadius="@dimen/hqx_finalist_round_participant_starting_margin" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/hqxVideoPlayerBubble" android:layout_width="@dimen/grid_13" android:layout_height="@dimen/grid_13" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+</MotionScene>

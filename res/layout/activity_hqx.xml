@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hqxActivity" android:background="@color/hqx_round_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/game_video_view" />
+    <FrameLayout android:id="@id/hqxActivityOverlayContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/game_debug_view" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/hqxActivityTopOfChatGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/hqx_top_of_chat_percent" />
+    <include app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/hqxActivityTopOfChatGuideline" layout="@layout/hqx_chat_component" />
+</androidx.constraintlayout.widget.ConstraintLayout>

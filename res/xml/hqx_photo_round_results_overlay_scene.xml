@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene motion:defaultDuration="750"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="750" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.5" motion:framePosition="0" motion:motionTarget="@id/hqxPhotoRoundResultsWinnerPill" />
+            <KeyAttribute android:scaleX="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxPhotoRoundResultsWinnerPill" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxPhotoRoundResultsCardContainer" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="20" motion:motionTarget="@id/hqxPhotoRoundResultsCardContainer" />
+            <KeyPosition motion:framePosition="25" motion:motionTarget="@id/hqxPhotoRoundResultsCardContainer" motion:percentY="1.0" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="20" motion:motionTarget="@id/hqxPhotoRoundResultsPhoto" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="40" motion:motionTarget="@id/hqxPhotoRoundResultsPhoto" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="30" motion:motionTarget="@id/hqxPhotoRoundResultsAvatar" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="40" motion:motionTarget="@id/hqxPhotoRoundResultsAvatar" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="40" motion:motionTarget="@id/hqxPhotoRoundResultsAvatar" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxPhotoRoundResultsAvatar" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/hqxPhotoRoundYourResultsRound" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/hqxPhotoRoundYourResultsRound" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/hqxPhotoRoundResultsUsername" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/hqxPhotoRoundResultsUsername" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="75" motion:motionTarget="@id/hqxPhotoRoundYourResultsRound" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="100" motion:motionTarget="@id/hqxPhotoRoundYourResultsRound" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/hqxPhotoRoundResultsCardContainer" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/grid_3" motion:layout_constraintBottom_toBottomOf="@id/hqxPhotoRoundResultsBottomGuideline" motion:layout_constraintEnd_toEndOf="@id/hqxPhotoRoundResultsEndGuideline" motion:layout_constraintStart_toStartOf="@id/hqxPhotoRoundResultsStartGuideline" motion:layout_constraintTop_toTopOf="@id/hqxPhotoRoundResultsTopGuideline" />
+        <Constraint android:id="@id/hqxPhotoRoundResultsCategory" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_3" motion:layout_constraintEnd_toEndOf="@id/hqxPhotoRoundResultsPhoto" motion:layout_constraintStart_toStartOf="@id/hqxPhotoRoundResultsPhoto" motion:layout_constraintTop_toBottomOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/hqxPhotoRoundResultsCategory" android:layout_width="0.0dip" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="@id/hqxPhotoRoundResultsPhoto" motion:layout_constraintEnd_toEndOf="@id/hqxPhotoRoundResultsPhoto" motion:layout_constraintStart_toStartOf="@id/hqxPhotoRoundResultsPhoto" />
+    </ConstraintSet>
+</MotionScene>

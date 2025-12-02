@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/hqxVoteOverlayConstraintSetEnd" motion:constraintSetStart="@id/hqxVoteOverlayConstraintSetStart" motion:duration="575" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/likeButton" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/likeButton" />
+            <KeyPosition motion:framePosition="25" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/likeButton" motion:percentX="1.0" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/dislikeButton" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/dislikeButton" />
+            <KeyPosition motion:framePosition="25" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/dislikeButton" motion:percentX="1.0" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/roundPhotoCount" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/roundPhotoCount" />
+            <KeyPosition motion:framePosition="25" motion:keyPositionType="deltaRelative" motion:motionTarget="@id/roundPhotoCount" motion:percentY="1.0" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/photosLabel" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/photosLabel" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/roundPhotoStack" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="20" motion:motionTarget="@id/roundPhotoStack" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.1" android:scaleY="1.1" motion:framePosition="50" motion:motionTarget="@id/roundPhotoStack" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/roundCategory" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/roundCategory" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/roundCategory" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/roundNumber" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="75" motion:motionTarget="@id/roundNumber" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="100" motion:motionTarget="@id/roundNumber" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/hqxVoteOverlayConstraintSetStart">
+        <Constraint android:id="@id/likeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginEnd="@dimen/grid_4" motion:layout_constraintEnd_toEndOf="@id/hqxPhotoVoteOverlayEndGuideline" motion:layout_constraintTop_toBottomOf="@id/photoBottomPaddingGuideline" />
+        <Constraint android:id="@id/dislikeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="@dimen/grid_4" motion:layout_constraintStart_toStartOf="@id/hqxPhotoVoteOverlayStartGuideline" motion:layout_constraintTop_toBottomOf="@id/photoBottomPaddingGuideline" />
+        <Constraint android:id="@id/roundPhotoCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_1_half" motion:layout_constraintBottom_toTopOf="@id/photosLabel" motion:layout_constraintEnd_toEndOf="@id/hqxPhotoVoteOverlayCenterGuideline" motion:layout_constraintStart_toStartOf="@id/hqxPhotoVoteOverlayCenterGuideline" motion:layout_constraintTop_toTopOf="@id/dislikeButton" motion:layout_constraintVertical_chainStyle="packed" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/hqxVoteOverlayConstraintSetEnd" />
+</MotionScene>

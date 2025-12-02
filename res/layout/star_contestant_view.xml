@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/contestantCardView" android:layout_width="100.0dip" android:layout_height="140.0dip" android:layout_margin="@dimen/grid_1" app:cardCornerRadius="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/contestantImageView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="2.0dip" app:layout_constraintHeight_percent="0.5" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/caption_2" android:textColor="@color/black" android:gravity="center" android:id="@id/contestantNameView" android:padding="@dimen/grid_1_half" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fontFamily="@font/circularstdmedium" app:layout_constraintBottom_toTopOf="@id/contestantRatingView" app:layout_constraintTop_toBottomOf="@id/contestantImageView" />
+        <TextView android:textSize="10.0sp" android:gravity="center_horizontal" android:id="@id/contestantRatingView" android:background="@drawable/rounded_rect_yellow" android:padding="@dimen/grid_1_half" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:fontFamily="@font/circularstdmedium" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

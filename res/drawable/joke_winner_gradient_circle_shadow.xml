@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/jokes_results_background" />
+    <gradient android:startColor="@color/jokes_winner_drop_shadow" android:endColor="@color/jokes_results_background" android:angle="0.0" android:type="radial" android:gradientRadius="60.0dip" />
+</shape>

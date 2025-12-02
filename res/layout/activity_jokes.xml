@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/jokesActivity" android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/game_video_view" />
+    <include android:id="@id/jokesViewerStatsContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/jokes_viewer_stats_view" />
+    <include layout="@layout/game_debug_view" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/hqxActivityTopOfChatGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/hqx_top_of_chat_percent" />
+    <include layout="@layout/hqx_chat_component" />
+</androidx.constraintlayout.widget.ConstraintLayout>

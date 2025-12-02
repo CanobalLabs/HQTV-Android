@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/moveIconsStart" />
+    <ConstraintSet android:id="@id/moveIconsEnd" />
+    <Transition android:id="@id/moveIcons" app:constraintSetEnd="@id/moveIconsEnd" app:constraintSetStart="@id/moveIconsStart" app:duration="1000" app:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" app:framePosition="0" app:motionTarget="@id/keepPlayingStar" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="0" app:motionTarget="@id/keepPlayingHeart" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="0" app:motionTarget="@id/keepPlayingEraser" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="0" app:motionTarget="@id/keepPlayingCoin" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="12" app:motionTarget="@id/keepPlayingStar" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="25" app:motionTarget="@id/keepPlayingStar" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="25" app:motionTarget="@id/keepPlayingHeart" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="37" app:motionTarget="@id/keepPlayingHeart" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/keepPlayingHeart" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/keepPlayingEraser" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="62" app:motionTarget="@id/keepPlayingEraser" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="75" app:motionTarget="@id/keepPlayingEraser" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="75" app:motionTarget="@id/keepPlayingCoin" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="89" app:motionTarget="@id/keepPlayingCoin" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="100" app:motionTarget="@id/keepPlayingCoin" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

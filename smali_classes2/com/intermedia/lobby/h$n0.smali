@@ -1,0 +1,211 @@
+.class final Lcom/intermedia/lobby/h$n0;
+.super Ljava/lang/Object;
+.source "LobbyFragment.kt"
+
+# interfaces
+.implements Ljb/f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/intermedia/lobby/h;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljb/f<",
+        "Li8/a;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic e:Lcom/intermedia/lobby/h;
+
+
+# direct methods
+.method constructor <init>(Lcom/intermedia/lobby/h;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Li8/a;)V
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    invoke-static {v0}, Lcom/intermedia/lobby/h;->T(Lcom/intermedia/lobby/h;)Landroid/view/ViewGroup;
+
+    move-result-object v0
+
+    .line 2
+    sget v1, Lz7/b;->nameView:I
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    const-string v2, "nameView"
+
+    invoke-static {v1, v2}, Lrc/j;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Li8/a;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 3
+    sget v1, Lz7/b;->coinView:I
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    const-string v2, "coinView"
+
+    invoke-static {v1, v2}, Lrc/j;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Li8/a;->getCoinPrice()I
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 4
+    iget-object v1, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    invoke-static {v1}, Lcom/intermedia/lobby/h;->T(Lcom/intermedia/lobby/h;)Landroid/view/ViewGroup;
+
+    move-result-object v1
+
+    sget v2, Lz7/b;->getView:I
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    const-string v2, "storeConfirmationView.getView"
+
+    invoke-static {v1, v2}, Lrc/j;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    invoke-static {v2}, Lcom/intermedia/lobby/h;->U(Lcom/intermedia/lobby/h;)La9/a;
+
+    move-result-object v2
+
+    invoke-virtual {p1}, Li8/a;->getName()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, La9/a;->L(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 5
+    iget-object v1, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    invoke-static {v1}, Lcom/intermedia/lobby/h;->L(Lcom/intermedia/lobby/h;)Lcom/squareup/picasso/Picasso;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Li8/a;->getIconUrl()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/squareup/picasso/Picasso;->load(Ljava/lang/String;)Lcom/squareup/picasso/w;
+
+    move-result-object v1
+
+    sget v2, Lz7/b;->iconView:I
+
+    invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/widget/ImageView;
+
+    invoke-virtual {v1, v2}, Lcom/squareup/picasso/w;->e(Landroid/widget/ImageView;)V
+
+    .line 6
+    invoke-static {v0}, Ly8/g1;->A(Landroid/view/View;)V
+
+    .line 7
+    iget-object v1, p0, Lcom/intermedia/lobby/h$n0;->e:Lcom/intermedia/lobby/h;
+
+    .line 8
+    new-instance v2, Landroid/app/AlertDialog$Builder;
+
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object v3
+
+    const v4, 0x7f1301c1
+
+    invoke-direct {v2, v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
+
+    .line 9
+    invoke-virtual {v2, v0}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v2
+
+    .line 10
+    new-instance v3, Lcom/intermedia/lobby/h$n0$a;
+
+    invoke-direct {v3, v0, p0, p1}, Lcom/intermedia/lobby/h$n0$a;-><init>(Landroid/view/ViewGroup;Lcom/intermedia/lobby/h$n0;Li8/a;)V
+
+    invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object p1
+
+    .line 11
+    invoke-virtual {p1}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+
+    move-result-object p1
+
+    invoke-static {v1, p1}, Lcom/intermedia/lobby/h;->a0(Lcom/intermedia/lobby/h;Landroid/app/Dialog;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic accept(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Li8/a;
+
+    invoke-virtual {p0, p1}, Lcom/intermedia/lobby/h$n0;->a(Li8/a;)V
+
+    return-void
+.end method

@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/intermedia/friends/n4;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Ljb/f;
+
+
+# instance fields
+.field public final synthetic e:Lcom/intermedia/friends/sc;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/intermedia/friends/sc;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/intermedia/friends/n4;->e:Lcom/intermedia/friends/sc;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/intermedia/friends/n4;->e:Lcom/intermedia/friends/sc;
+
+    check-cast p1, Lkotlin/r;
+
+    invoke-virtual {v0, p1}, Lcom/intermedia/friends/sc;->A(Lkotlin/r;)V
+
+    return-void
+.end method

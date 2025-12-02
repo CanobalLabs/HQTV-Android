@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/hqxEpisodeWinnersPill" android:layout_marginTop="@dimen/grid_5" android:text="@string/Winners" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HqxPillStyle" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/hqxEpisodeWinnersRecyclerViewTopGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/grid_16" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/hqxEpisodeWinnersRecyclerViewBottomGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/hqx_top_of_chat_percent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/hqxEpisodeWinnersRecyclerView" android:background="@color/transparent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingStart="@dimen/grid_3" android:paddingEnd="@dimen/grid_3" app:layout_constraintBottom_toBottomOf="@id/hqxEpisodeWinnersRecyclerViewBottomGuideline" app:layout_constraintTop_toTopOf="@id/hqxEpisodeWinnersRecyclerViewTopGuideline" />
+</androidx.constraintlayout.widget.ConstraintLayout>

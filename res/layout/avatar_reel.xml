@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/empty_avatar_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/guideline_avatar_reel">
+        <ImageView android:layout_width="@dimen/grid_8" android:layout_height="@dimen/grid_8" android:layout_marginStart="-16.0dip" app:srcCompat="@drawable/empty_profile" />
+    </FrameLayout>
+    <ImageView android:id="@id/empty_avatar_2" android:layout_width="@dimen/grid_8" android:layout_height="@dimen/grid_8" android:layout_marginStart="@dimen/grid_1_half" android:layout_marginEnd="@dimen/grid_2" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintEnd_toStartOf="@id/avatar" app:layout_constraintStart_toEndOf="@id/empty_avatar_1" app:layout_constraintTop_toTopOf="@id/guideline_avatar_reel" app:srcCompat="@drawable/empty_profile" />
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/avatar" android:layout_width="@dimen/grid_12" android:layout_height="@dimen/grid_12" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/guideline_avatar_reel" />
+    <ImageView android:id="@id/hq_bubble" android:layout_width="@dimen/grid_5" android:layout_height="@dimen/grid_5" android:layout_marginBottom="@dimen/grid_2" android:layout_marginStart="@dimen/grid_9" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintStart_toStartOf="@id/avatar" app:srcCompat="@drawable/hq_bubble" />
+    <ImageView android:id="@id/empty_avatar_3" android:layout_width="@dimen/grid_8" android:layout_height="@dimen/grid_8" android:layout_marginStart="@dimen/grid_2" android:layout_marginEnd="@dimen/grid_1_half" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintEnd_toStartOf="@id/empty_avatar_4" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toTopOf="@id/guideline_avatar_reel" app:srcCompat="@drawable/empty_profile" />
+    <FrameLayout android:id="@id/empty_avatar_4" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/guideline_avatar_reel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/guideline_avatar_reel">
+        <ImageView android:layout_width="@dimen/grid_8" android:layout_height="@dimen/grid_8" android:layout_marginEnd="-16.0dip" app:srcCompat="@drawable/empty_profile" />
+    </FrameLayout>
+</merge>

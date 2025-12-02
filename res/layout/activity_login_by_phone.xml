@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/loginActivity" android:background="@color/hq_blue" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/loginBackgroundDots" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" app:srcCompat="@drawable/bg_pattern" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/loginBackgroundShapes" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" app:srcCompat="@drawable/bg_objects" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ToolbarDark" />
+    <com.intermedia.socialLogin.NoTouchViewPager android:id="@id/phoneLoginStepsPager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include android:id="@id/firstStep" layout="@layout/view_phone_login_first_step" />
+        <include android:id="@id/secondStep" layout="@layout/view_phone_login_second_step" />
+    </com.intermedia.socialLogin.NoTouchViewPager>
+</androidx.constraintlayout.widget.ConstraintLayout>
