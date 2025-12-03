@@ -60,7 +60,7 @@
 
     invoke-direct {p1, v0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const-string v0, "HQ collects, stores, uploads and syncs your contact list to find your friends on HQ."
+    const-string v0, "HQTV collects, stores, uploads and syncs your contact list to find your friends on HQTV."
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;

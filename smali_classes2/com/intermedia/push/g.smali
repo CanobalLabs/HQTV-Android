@@ -184,7 +184,7 @@
 
     if-eqz v5, :cond_4
 
-    const-string v0, "HQ"
+    const-string v0, "HQTV"
 
     :cond_4
     move-object v5, v0

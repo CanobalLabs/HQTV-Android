@@ -1079,12 +1079,12 @@
 
     if-eqz p2, :cond_0
 
-    const-string p2, "HQ Words"
+    const-string p2, "HQTV Words"
 
     goto :goto_0
 
     :cond_0
-    const-string p2, "HQ Trivia"
+    const-string p2, "HQTV Trivia"
 
     .line 2
     :goto_0

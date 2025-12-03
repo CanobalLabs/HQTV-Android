@@ -1092,7 +1092,7 @@
 
     const-string v1, "Hey_I_m_playing_a_game_called_HQ_Trivia_You_should_play_too_Use_my_code_username_to_sign_up_https_ge"
 
-    const-string v2, "Hey, I\u2019m playing a game called HQ Trivia. You should play too. Use my code \'%{username}\' to sign up https://get.hqtrivia.com"
+    const-string v2, "Hey, I\u2019m playing a game called HQTV Trivia. You should play too. Use my code \'%{username}\' to sign up https://hqtv.studio"
 
     const/4 v3, 0x0
 
@@ -1309,7 +1309,7 @@
 
     const-string p2, "I_just_unlocked_the_badge_Badge_on_HQ_Trivia_Use_code_code_to_sign_up_https_get_hqtrivia_com"
 
-    const-string v1, "I just unlocked the %{badge} Badge on HQ Trivia! Use code \"%{code}\" to sign up https://get.hqtrivia.com"
+    const-string v1, "I just unlocked the %{badge} Badge on HQTV Trivia! Use code \"%{code}\" to sign up https://hqtv.studio"
 
     const/4 v2, 0x0
 
@@ -1448,7 +1448,7 @@
 
     const-string v1, "I_m_playing_live_game_shows_on_HQ_You_should_play_too_Use_my_code_username_to_sign_up_www_hqtrivia_c"
 
-    const-string v2, "I\'m playing live game shows on HQ! You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com"
+    const-string v2, "I\'m playing live game shows on HQTV! You should play too. Use my code \"%{username}\" to sign up www.hqtrivia.com"
 
     const/4 v3, 0x0
 
@@ -2052,7 +2052,7 @@
 
     const-string v2, "Allow_HQ_access_to_your_camera_so_you_can_take_photos_during_the_game"
 
-    const-string v3, "Allow HQ access to your camera so you can take photos during the game."
+    const-string v3, "Allow HQTV access to your camera so you can take photos during the game."
 
     const/4 v4, 0x0
 
@@ -2480,7 +2480,7 @@
 
     const-string v2, "Use_a_Super_Spin_to_get_more_letters_and_special_Power_Ups_in_HQ_Words"
 
-    const-string v3, "Use a Super Spin to get more letters and special Power Ups in HQ Words."
+    const-string v3, "Use a Super Spin to get more letters and special Power Ups in HQTV Words."
 
     const/4 v4, 0x0
 
