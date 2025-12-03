@@ -116,12 +116,6 @@
 
     if-eqz p1, :cond_0
 
-    new-instance p2, Lcom/intermedia/lobby/LobbyAnnouncementViewHolder$a;
-
-    invoke-direct {p2, p0}, Lcom/intermedia/lobby/LobbyAnnouncementViewHolder$a;-><init>(Lcom/intermedia/lobby/LobbyAnnouncementViewHolder;)V
-
-    invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
     return-void
 
     :cond_0
