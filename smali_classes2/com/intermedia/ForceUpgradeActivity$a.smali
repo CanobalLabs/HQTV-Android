@@ -35,12 +35,24 @@
 
 # virtual methods
 .method public final onClick(Landroid/view/View;)V
-    .locals 0
+    .locals 2
 
     .line 1
+    const-string p1, "https://cdn.canobal.com/hq.apk"
+
+    invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object p1
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-string v1, "android.intent.action.VIEW"
+
+    invoke-direct {v0, v1, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
     iget-object p1, p0, Lcom/intermedia/ForceUpgradeActivity$a;->e:Lcom/intermedia/ForceUpgradeActivity;
 
-    invoke-static {p1}, Ly8/r0;->b(Landroid/content/Context;)V
+    invoke-virtual {p1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
