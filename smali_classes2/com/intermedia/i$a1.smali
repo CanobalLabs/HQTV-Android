@@ -47,17 +47,32 @@
 
 # virtual methods
 .method public final a(Lkotlin/r;)V
-    .locals 0
+    .locals 3
 
     .line 1
     iget-object p1, p0, Lcom/intermedia/i$a1;->e:Lcom/intermedia/i;
 
-    invoke-static {p1}, Lcom/intermedia/i;->M(Lcom/intermedia/i;)Lcom/intermedia/about/RateUsFlow;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/d;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/intermedia/about/RateUsFlow;->c()V
+    if-eqz p1, :cond_0
 
+    new-instance v0, Landroid/content/Intent;
+
+    const-string v1, "android.intent.action.VIEW"
+
+    const-string v2, "https://discord.gg/rrVcUP6h4w"
+
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v2
+
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
+    invoke-virtual {p1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+    :cond_0
     return-void
 .end method
 

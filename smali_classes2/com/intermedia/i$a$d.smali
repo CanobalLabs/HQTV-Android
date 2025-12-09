@@ -35,14 +35,31 @@
 
 # virtual methods
 .method public final onClick(Landroid/view/View;)V
-    .locals 1
+    .locals 3
 
     .line 1
     iget-object p1, p0, Lcom/intermedia/i$a$d;->e:Landroidx/fragment/app/Fragment;
 
-    sget-object v0, Lcom/intermedia/about/webview/d$c;->g:Lcom/intermedia/about/webview/d$c;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/d;
 
-    invoke-static {p1, v0}, Lcom/intermedia/about/webview/b;->b(Landroidx/fragment/app/Fragment;Lcom/intermedia/about/webview/d;)V
+    move-result-object p1
 
+    if-eqz p1, :cond_0
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-string v1, "android.intent.action.VIEW"
+
+    const-string v2, "https://x.com/playhqtv"
+
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v2
+
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
+    invoke-virtual {p1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+    :cond_0
     return-void
 .end method
