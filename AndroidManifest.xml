@@ -40,7 +40,7 @@
                 <data android:host="cct.com.intermedia.hq" android:scheme="fbconnect"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.intermedia.EntryActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/HQThemeBase">
+        <activity android:name="com.intermedia.EntryActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

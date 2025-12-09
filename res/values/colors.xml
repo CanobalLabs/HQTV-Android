@@ -143,6 +143,9 @@
     <color name="hqx_submit_button">#fff94a76</color>
     <color name="hqx_your_results_pill">#ffe5184f</color>
     <color name="ic_launcher_background">#ff343b9a</color>
+    <color name="ic_launcher_background_transparent">#00000000</color>
+    <color name="ic_launcher_background_white">#ffffffff</color>
+    <color name="ic_launcher_background_black">#ff000000</color>
     <color name="incorrect_red">#ffee98b4</color>
     <color name="jokes_green">#ff09bd64</color>
     <color name="jokes_results_background">#f2292929</color>

@@ -1315,6 +1315,15 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:fontFamily">@font/circularstdbook</item>
     </style>
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground_splash</item>
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/white</item>
+    </style>
     <style name="HQThemeBase" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/white</item>
         <item name="android:windowNoTitle">true</item>

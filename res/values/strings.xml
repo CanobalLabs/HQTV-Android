@@ -1054,7 +1054,7 @@ VIP Prize!"</string>
     <string name="contact_fragment_title">Contact us</string>
     <string name="correct">correct</string>
     <string name="count_Playing">%{count} Playing</string>
-    <string name="datadog_api_key">37b420b703160082029f53ba38fb3b86</string>
+    <string name="datadog_api_key">7e5b3a888f4afe81b11648d3307a5ca2</string>
     <string name="datadog_api_url">https://api.datadoghq.com/api/</string>
     <string name="days_day_streak_Here_s_an_Extra_Life_for_your_next_game">"*%{days}-day streak!* Here's an Extra Life for your next game."</string>
     <string name="days_day_streak_complete">%{days} day streak complete!</string>
@@ -1115,7 +1115,7 @@ VIP Prize!"</string>
     <string name="faq_url">https://hqtv.studio/legal/faq.html</string>
     <string name="fb_login_protocol_scheme">fb1309867799121574</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url">https://high-q.firebaseio.com</string>
+    <string name="firebase_database_url">https://hqtv-dff67-default-rtdb.firebaseio.com</string>
     <string name="five">five</string>
     <string name="four">four</string>
     <string name="fraud_user_faq_url">https://hqtv.studio/about/cashout-disabled</string>
@@ -1135,7 +1135,7 @@ VIP Prize!"</string>
     <string name="friendRequestCount_friend_requests_two">%{friendRequestCount} friend requests</string>
     <string name="friendRequestCount_friend_requests_zero">Friend requests</string>
     <string name="gcm_defaultSenderId">345466941411</string>
-    <string name="google_api_key">AIzaSyB2InpSAznPzuIPhVhqLU9tB70IMwPkw0I</string>
+    <string name="google_api_key">AIzaSyAeE39g-yXKkN_5vREeliTaeX4FkkTGA8w</string>
     <string name="google_app_id">1:345466941411:android:1246bcbeba02d0292e7ad6</string>
     <string name="google_crash_reporting_api_key">AIzaSyBnvvgPtgQ5rD0XNYIv2TVqPgqi_X5l7_A</string>
     <string name="google_storage_bucket">hqtv-dff67.firebasestorage.app</string>
