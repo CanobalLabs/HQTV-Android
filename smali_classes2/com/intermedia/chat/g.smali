@@ -381,6 +381,8 @@
     invoke-direct/range {v1 .. v7}, Lcom/intermedia/model/websocket/b;-><init>(Ljava/lang/String;ZLjava/lang/String;JLjava/lang/String;)V
 
     .line 5
+    goto :cond_0
+
     iget-boolean v1, p0, Lcom/intermedia/chat/g;->j:Z
 
     if-eqz v1, :cond_0
@@ -401,6 +403,8 @@
 
     .line 8
     :cond_0
+    goto :cond_1
+
     iget v1, p0, Lcom/intermedia/chat/g;->h:I
 
     const/4 v2, 0x2
@@ -435,6 +439,8 @@
 
     .line 11
     :cond_1
+    goto :cond_2
+
     iget-boolean v1, p0, Lcom/intermedia/chat/g;->j:Z
 
     if-nez v1, :cond_2
