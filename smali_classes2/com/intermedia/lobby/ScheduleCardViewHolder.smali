@@ -484,6 +484,35 @@
 
     invoke-virtual {v2, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
+    invoke-virtual {v1}, Lcom/intermedia/model/h4;->getScheduledShow()Lcom/intermedia/model/b4;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/intermedia/model/b4;->getDisplay()Lcom/intermedia/model/g0;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/intermedia/model/g0;->getAccentColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
+
+    move-result v7
+
+    if-lez v7, :cond_set_subtitle_color
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    iget-object v7, v0, Lcom/intermedia/lobby/ScheduleCardViewHolder;->subtitleTextView:Landroid/widget/TextView;
+
+    if-eqz v7, :cond_set_subtitle_color
+
+    invoke-virtual {v7, v2}, Landroid/widget/TextView;->setTextColor(I)V
+
+    :cond_set_subtitle_color
     .line 7
     invoke-static {v1}, Ldb/f;->x0(Ljava/lang/Object;)Ldb/f;
 
