@@ -70,7 +70,7 @@
 
     const-class v0, Lcom/intermedia/donate/g;
 
-    const-string v1, "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
+    const-string v1, "2ec916ecd-241021-hq-2.0.1-b227_externalRelease"
 
     invoke-static {v0, v1}, Lrc/q;->c(Ljava/lang/Class;Ljava/lang/String;)Lvc/c;
 

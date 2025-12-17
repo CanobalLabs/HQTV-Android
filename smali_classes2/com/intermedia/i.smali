@@ -1978,7 +1978,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "2.0.0"
+    const-string v4, "2.0.1"
 
     aput-object v4, v2, v3
 

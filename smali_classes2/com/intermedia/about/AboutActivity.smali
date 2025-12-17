@@ -84,7 +84,7 @@
         "()Lcom/intermedia/about/RateUsFlow;",
         "rateUsFlow",
         "<init>",
-        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.1-b227_externalRelease"
     }
     k = 0x1
     mv = {
@@ -435,7 +435,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "2.0.0"
+    const-string v5, "2.0.1"
 
     aput-object v5, v1, v4
 

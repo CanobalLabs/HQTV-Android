@@ -117,7 +117,7 @@
         "<init>",
         "(Lcom/intermedia/model/AppealStatus;Ljava/lang/String;Ljava/lang/Boolean;Lcom/intermedia/model/DocumentStatus;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Lcom/intermedia/model/PayoutEligibility;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V",
         "Companion",
-        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.1-b227_externalRelease"
     }
     k = 0x1
     mv = {

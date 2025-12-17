@@ -32,7 +32,7 @@
         "Lcom/intermedia/observability/EventConsumerControllerOutputs;",
         "eventConsumerController",
         "(Lcom/intermedia/observability/EventConsumerApiPostStrategy;Lcom/intermedia/observability/EventConsumerDatadogMetrics;Lio/reactivex/Flowable;Lio/reactivex/Flowable;Lio/reactivex/Flowable;Lio/reactivex/Flowable;Lio/reactivex/Scheduler;)Lcom/intermedia/observability/EventConsumerControllerOutputs;",
-        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.1-b227_externalRelease"
     }
     k = 0x2
     mv = {

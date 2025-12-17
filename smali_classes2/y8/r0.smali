@@ -103,7 +103,7 @@
 
     move-result-object p0
 
-    const-string v1, "2.0.0"
+    const-string v1, "2.0.1"
 
     .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;

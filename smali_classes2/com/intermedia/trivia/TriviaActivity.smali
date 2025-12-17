@@ -499,7 +499,7 @@
         "()Lcom/intermedia/game/YoureLateOverlay;",
         "youreLateOverlay",
         "<init>",
-        "2ec916ecd-241021-hq-2.0.0-b227_externalRelease"
+        "2ec916ecd-241021-hq-2.0.1-b227_externalRelease"
     }
     k = 0x1
     mv = {
@@ -4893,7 +4893,7 @@
 
     move-result-wide v4
 
-    const-string v6, "2.0.0"
+    const-string v6, "2.0.1"
 
     .line 11
     invoke-direct {v3, v4, v5, v6}, Lcom/intermedia/observability/events/GameState$Opened;-><init>(JLjava/lang/String;)V

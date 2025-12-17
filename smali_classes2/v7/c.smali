@@ -156,7 +156,7 @@
 
     new-array v4, v3, [Ljava/lang/String;
 
-    const-string v5, "2.0.0"
+    const-string v5, "2.0.1"
 
     const/4 v6, 0x0
 
